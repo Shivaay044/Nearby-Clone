@@ -1,0 +1,580 @@
+{
+  "data":[
+    {
+      "merchantName": "Enrich Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63610fba22b317000b73b17a.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Mumbai",
+      "merchantCity": "Vasant vihar",
+      "distanceFromUser": "462 km away",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63610fba22b317000b73b17a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361101b22b317000b73b187.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361102622b317000b73b188.jpg"
+      ],
+      "Category": "Salon",
+      "id": 0
+    },
+    {
+      "merchantName": "Costa Coffee",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6361083722156b000cb5e510.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "New Delhi",
+      "merchantCity": "AeroCity",
+      "distanceFromUser": "322.2 km away",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/6361083722156b000cb5e510.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361084722b317000b73b15e.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361085322b317000b73b15f.jpg"
+      ],
+      "Category": "resturant",
+      "id": 1
+    },
+    {
+      "merchantName": "Blue Tokai",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63625c4022b317000b73b84b.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Mumbai",
+      "merchantCity": "Jail Road",
+      "distanceFromUser": "262.2 km away",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+      ],
+      "Category": "resturant",
+      "id": 2
+    },
+    {
+      "merchantName": "Punjab Grill",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6362326722b317000b73b42e.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Pune",
+      "merchantCity": "Ashok nagar",
+      "distanceFromUser": "100 km away",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/6362326722b317000b73b42e.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6362327722b317000b73b42f.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6362328722156b000cb5e7c5.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6362329422156b000cb5e7c6.jpg"
+      ],
+      "Category": "resturant",
+      "id": 3
+    },
+    {
+      "merchantName": "Lakmé Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/636377a822b317000bd17ba7.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "New Delhi",
+      "merchantCity": "Dwarka",
+      "distanceFromUser": "132 km away",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 4
+    },
+    {
+      "merchantName": "Smaaash - Noida Pub Exchange",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5e8574dfd60180000c4fe5bb.jpg",
+      "merchantLocation": "DLF Mall Of India, Sector 18",
+      "merchantCity": "Noida",
+      "distanceFromUser": "434.4 km",
+      "Category": "resturant",
+      "id": 5
+    },
+    {
+      "merchantName": "Glued Reloaded",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f8d65fe5cc6f2000bc17e4b.jpg",
+      "merchantLocation": "Aghapur",
+      "merchantCity": "Noida",
+      "distanceFromUser": "430.5 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/5f8d65fe5cc6f2000bc17e4b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/5f8fd1465cc6f2000bc1833e.jpg",
+        "https://img4.nbstatic.in/tr:w-350/5f96817ac4d55d000b18b5b0.jpg",
+        "https://img4.nbstatic.in/tr:w-350/5f968185c4d55d000b18b5b2.jpg",
+        "https://img4.nbstatic.in/tr:w-350/5f9681915cc6f2000bc192bc.jpg"
+      ],
+      "Category": "resturant",
+      "id": 6
+    },
+    {
+      "merchantName": "Musona Unisex Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5ba0d8834cedfd000d6de5ca.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Molarband Extension",
+      "merchantCity": "Mumbai",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63610fba22b317000b73b17a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361101b22b317000b73b187.jpg",
+        "https://img4.nbstatic.in/tr:w-350/6361102622b317000b73b188.jpg"
+      ],
+      "distanceFromUser": "433.4 km",
+      "Category": "Salon",
+      "id": 7
+    },
+    {
+      "merchantName": "The Kaanch Restro And Bar",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/62db7f11edffcc000bfade22.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Mayur Vihar Phase 3",
+      "merchantCity": "Mumbai",
+      "distanceFromUser": "433.8 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 8
+    },
+    {
+      "merchantName": "KidZania ",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/606477bb9b6019000bcf4ce7.jpg",
+      "merchantLocation": "Gardens Galleria Mall, Sector 38 A",
+      "merchantCity": "Noida",
+      "distanceFromUser": "434.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/606477bb9b6019000bcf4ce7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62cd665ab3c621000b60f083.jpg",
+        "https://img4.nbstatic.in/tr:w-350/573d84fdd60180000d3024cf.jpg",
+        "https://img4.nbstatic.in/tr:w-350/604f146e79600c000c8c2073.jpg"
+      ],
+      "Category": "resturant",
+      "id": 9
+    },
+    {
+      "merchantName": "RBG - Park Inn by Radisson",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/61c5588e1e2731000ba429c3.jpg",
+      "merchantLocation": "Indraprastha Extension",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "436.7 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 10
+    },
+    {
+      "merchantName": "64/6 - Country Inn & Suites By Radisson",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/60f151811e2731000b81c69c.jpg",
+      "merchantLocation": "Sahibabad",
+      "merchantCity": "Ghaziabad",
+      "distanceFromUser": "434.7 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 11
+    },
+    {
+      "merchantName": "Tatva - Country Inn & Suites By Radisson Sahibabad",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6108d4f71e2731000bfb1d1f.jpg",
+      "merchantLocation": "Sahibabad",
+      "merchantCity": "Ghaziabad",
+      "distanceFromUser": "434.7 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 12
+    },
+    {
+      "merchantName": "Magic Unisex Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5bff70065f1503000d434c8a.jpg",
+      "merchantLocation": "Bellandpur Hc",
+      "merchantCity": "Gurgoan",
+      "distanceFromUser": "436.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 13
+    },
+    {
+      "merchantName": "Prefect Care Family Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/62823ff43b031b000b4a3815.jpg",
+      "merchantLocation": " Vihar",
+      "merchantCity": "Gurgoan",
+      "distanceFromUser": "336.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 14
+    },
+    {
+      "merchantName": "Flaunt Styling Lounge",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5bff70065f1503000d434c8a.jpg",
+      "merchantLocation": "Govind pura phase 6",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "436.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 15
+    },
+    {
+      "merchantName": "Body & Mind Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/6126292a40e9df000b8116f6.jpg",
+      "merchantLocation": "Guindy",
+      "merchantCity": "Chennai",
+      "distanceFromUser": "436 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 16
+    },
+    {
+      "merchantName": "Magic Unisex Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5bff70065f1503000d434c8a.jpg",
+      "merchantLocation": "Sarita Vihar",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "436.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 17
+    },
+    {
+      "merchantName": "My Salon Professional",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5c2c8b4bdc0e82000dfac801.jpg",
+      "merchantLocation": "New Ashok Nagar",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "436.4 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 18
+    },
+    {
+      "merchantName": "Barbeque Nation",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/60d989e340e9df000b9f2355.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Jangpura Extension",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "442.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 19
+    },
+    {
+      "merchantName": "Rising Health",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6110c3b940e9df000b66f358.jpg",
+      "merchantLocation": "Greater Kailash 1",
+      "merchantCity": "Lucknow",
+      "distanceFromUser": "442.2 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+      ],
+      "Category": "resturant",
+      "id": 20
+    },
+    {
+      "merchantName": "Gastronomica Kitchen & Bar",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/56b0782b0b04512cde6e525b.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Lucknow",
+      "distanceFromUser": "442.1 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 21
+    },
+    {
+      "merchantName": "Berco's",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/56ae697d0b04512cde6c52b8.jpg",
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Noida",
+      "distanceFromUser": "442.1 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+      ],
+      "Category": "resturant",
+      "id": 22
+    },
+    {
+      "merchantName": "Hudba",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5a5dc343e21b84000cd13344.jpg",
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Noida",
+      "distanceFromUser": "442.1 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+      ],
+      "Category": "resturant",
+      "id": 23
+    },
+    {
+      "merchantName": "Swastik Salon N Spa",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/62bbf13f3b031b000bb0a859.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Lajpat Nagar 4",
+      "merchantCity": "Mumbai",
+      "distanceFromUser": "441.1 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 24
+    },
+    {
+      "merchantName": "Manju Shah Beauty Parlour",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5ef3114ce21b84000c8e2660.jpg",
+      "merchantLocation": "Greater Kailash 2",
+      "merchantCity": "Mumbai",
+      "distanceFromUser": "440.9 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 25
+    },
+    {
+      "merchantName": "Blue Heritage Spa",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6034ca8879600c000ba6ae7f.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK2 M Block Market, Greater Kailash 2",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "440.9 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 26
+    },
+    {
+      "merchantName": "Aura Thai Spa",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5fd72eb15cc6f2000b364273.jpg",
+      "merchantLocation": "Greater Kailash 2",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "440.9 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 27
+    },
+    {
+      "merchantName": "VLCC",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/59ca3d04dc0e82000c30d981.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK2 M Block Market, Greater Kailash 2",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "441 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+      ],
+      "Category": "resturant",
+      "id": 28
+    },
+    {
+      "merchantName": "Deepika Makeovers ",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63a18c3122b317000b8cf1a6.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Lajpat Nagar 2",
+      "merchantCity": "New Delhi",
+      "distanceFromUser": "441.9 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": null,
+      "id": 29
+    },
+    {
+      "merchantName": "Jawed Habib Hair & Beauty",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f0d8f6a46e0fb000cd8e97d.jpg",
+      "merchantLocation": "Hospital Road, Jangpura Extension",
+      "merchantCity": "Kolkata",
+      "distanceFromUser": "442 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": null,
+      "id": 30
+    },
+    {
+      "merchantName": "Nostalgia Blues",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63c12f6622b317000b618f13.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Greater Kailash 1",
+      "merchantCity": "Kolkata",
+      "distanceFromUser": "442 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+      ],
+      "Category": "resturant",
+      "id": 31
+    },
+    {
+      "merchantName": "Alma Rejuva Spa",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63e7748722b317000bc8314e.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Pune",
+      "distanceFromUser": "442 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 32
+    },
+    {
+      "merchantName": "WestSide",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/6300deda54f372000bb4a40d.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Greater Kailash 1",
+      "merchantCity": "Bengaluru",
+      "distanceFromUser": "442 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 33
+    },
+    {
+      "merchantName": "William Penn",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/5bea5eae52faff000d0b2f71.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Indra nagar sector 1",
+      "merchantCity": "Bengaluru",
+      "distanceFromUser": "42 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 34
+    },
+    {
+      "merchantName": "Hidesign",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/5be974365f1503000c1c82cb.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Yashwantpur",
+      "merchantCity": "Bengaluru",
+      "distanceFromUser": "342 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 35
+    },
+    {
+      "merchantName": "Yatra",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/5c08b67646e0fb000c554ff8.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Layout area",
+      "merchantCity": "Bengaluru",
+      "distanceFromUser": "432 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 36
+    },
+    {
+      "merchantName": "FabIndia",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/630318a054f372000bb4a471.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Pune",
+      "distanceFromUser": "402 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 37
+    },
+    {
+      "merchantName": "Chumbak",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-350/5bea5f3a4cedfd000c0d8ac2.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+      "merchantCity": "Pune",
+      "distanceFromUser": "142 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Spa",
+      "id": 38
+    },
+    {
+      "merchantName": "Keintchi Family Salon",
+      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6343fe9922b317000b87bfc4.jpg",
+      "ratingDetails": null,
+      "merchantLocation": "Lajpat Nagar 1",
+      "merchantCity": "Pune",
+      "distanceFromUser": "442.1 km",
+      "images": [
+        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+      ],
+      "Category": "Salon",
+      "id": 39
+    }
+  ]
+  
+}
+
