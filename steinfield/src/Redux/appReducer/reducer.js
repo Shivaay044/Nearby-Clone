@@ -1,5 +1,7 @@
+const initState={
 
+}
 
-export const reducer =()=>{
-    
+export const reducer =(state=initState)=>{
+ return   state 
 }

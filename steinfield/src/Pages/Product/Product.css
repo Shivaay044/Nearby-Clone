@@ -1,0 +1,51 @@
+.productPage{
+
+    width: 80%;
+    border:1px solid red;
+    margin:auto;
+    display :grid;
+    grid-template-columns: 26% 72%;
+    height:700px;
+    gap:2%;
+ 
+
+}
+
+body{
+    background-color:#E1E9EC;
+    margin-top: 10%;
+    font-family: sans-serif,'Open sans';
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 30% 67%;
+   
+  
+    row-gap: 3%;
+
+}
+.sidebar>div{
+ 
+    background-color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+padding: 4%;
+
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+column-gap:2.5%;
+row-gap: 2%;
+}
+
+.filtering-container{
+ display: flex;
+ flex-direction: column; 
+align-items: flex-start;
+
+   
+
+}
