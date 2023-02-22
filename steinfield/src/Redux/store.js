@@ -1,7 +1,9 @@
 import { combineReducers, legacy_createStore } from "redux";
+import { reducer as appReducer } from "./appReducer/reducer";
 
 const rootReducer = combineReducers({
    // reducers here
+ appReducer,  
 })
 
 export const store = legacy_createStore(rootReducer)
