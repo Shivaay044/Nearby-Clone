@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { ProductCard } from '../../Components/ProductCard/ProductCard'
 import Slider from "react-slick";
 import './Product.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import {useSelector,useDispatch} from 'react-redux'
+import { getProducts } from '../../Redux/appReducer/action';
 
 export const Product = () => {
 
-  const products =[1,2,3,4,5,6]
+  // const products =[1,2,3,4,5,6]
+  const products = useSelector((store)=>store.appReducer.products)
+  const dispatch =useDispatch()
   const inputChecbox =[1,2,3,4,5]
+
+  useEffect(()=>{
+    getProducts(dispatch)
+  },[])
 
   const settings = {
     dots: true,
@@ -65,7 +73,7 @@ export const Product = () => {
 
     <div className='product-container'>{
       products.map((el)=>(
-     <ProductCard/>
+     <ProductCard key={el.id} {...el}/>
      ))
      } 
     </div>   

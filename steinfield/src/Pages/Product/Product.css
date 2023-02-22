@@ -5,7 +5,7 @@
     margin:auto;
     display :grid;
     grid-template-columns: 26% 72%;
-    height:700px;
+    height:800px;
     gap:2%;
  
 
@@ -20,7 +20,7 @@ body{
 .sidebar {
     display: grid;
     grid-template-rows: 30% 67%;
-   
+   height:50%;
   
     row-gap: 3%;
 
@@ -37,6 +37,7 @@ padding: 4%;
 .product-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(6,%); */
 column-gap:2.5%;
 row-gap: 2%;
 }
