@@ -13,7 +13,7 @@ export const getProductErrorAction =()=>{
 
 export const getProducts=(dispatch)=>{
     dispatch(getProductRequestAction)
-    axios.get(`http://localhost:8080/data?Category=resturant&merchantCity=New Delhi`).then((res)=>{
+    axios.get(`http://localhost:8080/data?Category=resturant`).then((res)=>{
         console.log(res.data)
   dispatch(getProductSuccessAction(res.data))
     }).catch(()=>{
