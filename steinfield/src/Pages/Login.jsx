@@ -1,14 +1,27 @@
 
+import  { useEffect } from "react";
 import React from "react";
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./Login.css";
 import axios from "axios"
+import { useDispatch, useSelector} from "react-redux"
+import { loginfaliure, loginSuccess } from "../Redux/Authentication/actionType,";
+import { store } from "../Redux/store";
+import toast, { Toaster } from 'react-hot-toast';
+import { useNavigate } from "react-router-dom";
+
 
 const signupInitialState = {
   name:"",
   email:"",
   password:"",
-  role:""
+  role:null
+}
+
+const loginInitialState ={
+  email:"",
+  password:"",
+  role:null
 }
 
 function Login() {
@@ -17,6 +30,19 @@ function Login() {
    const [signup,setSignup] = useState(true)
    const [login,setLogin] = useState(false)
    const [SignupData , setSignupData] = useState(signupInitialState)
+   const [LoginData , setLoginData] = useState(loginInitialState)
+   const [crud,setCrud] = useState({})
+
+   useEffect(() =>{
+    LoginData.role && axios.get(`http://localhost:8080/${LoginData.role}`)
+      .then((res) =>{setCrud(res.data)})
+   },[LoginData])
+
+   const dispatch = useDispatch()
+
+   const isAuth = useSelector((store) =>store.authReducer.isAuth)
+
+   const navigate = useNavigate()
 
    const handleloginSwitch = () =>{
          setSignup(true)
@@ -31,7 +57,9 @@ function Login() {
 
    const handleSignup = (e) =>{
         e.preventDefault()
-       axios.post(`http://localhost:8080/admin/${signup}`)
+        SignupData.role && axios.post(`http://localhost:8080/${SignupData.role}`,SignupData)
+       .then((res) =>{toast.success("Registered Successfully !")})
+       .catch((err) =>{toast.error("Failed, try again")})
    }
 
 
@@ -39,10 +67,41 @@ function Login() {
      const {value,name} = e.target
       setSignupData({...SignupData,[name]:value})
    }
+
+
+   const handleChangeLogin = (e) =>{
+    const {value,name} = e.target
+    setLoginData({...LoginData,[name]:value})
+   }
+
+
+   const handleLogin = async(e) =>{
+    e.preventDefault()
+
+    let arr = crud.filter((el) =>{
+      if(el.email==LoginData.email && el.password==LoginData.password){
+        dispatch(loginSuccess())
+      return {email:el.email,password:el.password}
+     }
+    })
+    
+    if(arr.length>0){
+      toast.success("Login Successfully !!")
+      //navigate from here
+    }else{
+      dispatch(loginfaliure())
+       toast.error("Credentials wrong");
+       //navigate from here
+    }
+
+   }
+  
  
 
   return (
+    
     <div id="credential-main">
+    <Toaster/>
       {/* <--------------------------Sign Up---------------------------> */}
       <div hidden={signup}>
         <div className="main-signup">
@@ -52,10 +111,10 @@ function Login() {
             </div>
             <div>
               <form onSubmit={handleSignup} className="signup-form">
-                <input name="name" type="text" placeholder="User name" onChange={hanldeChangeSignup}  />
-                <input name="email" type="email" placeholder="Email" onChange={hanldeChangeSignup} />
-                <input name="password" type="password" placeholder="Password" onChange={hanldeChangeSignup} />
-                <select name="role" placeholder="select role" onChange={hanldeChangeSignup}>
+                <input name="name" type="text" placeholder="User name" onChange={hanldeChangeSignup}  required/>
+                <input name="email" type="email" placeholder="Email" onChange={hanldeChangeSignup} required/>
+                <input name="password" type="password" placeholder="Password" onChange={hanldeChangeSignup} required/>
+                <select name="role" placeholder="select role" onChange={hanldeChangeSignup} required>
                   <option>select role</option>
                   <option value="user">User</option>
                   <option value="admin">Admin</option>
@@ -79,10 +138,10 @@ function Login() {
               <h1>Login</h1>
             </div>
             <div>
-              <form className="login-form">
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <select placeholder="select role">
+              <form onSubmit={handleLogin} className="login-form">
+                <input name="email" type="email" placeholder="Email" onChange={handleChangeLogin} required/>
+                <input name="password" type="password" placeholder="Password" onChange={handleChangeLogin} required/>
+                <select name="role" placeholder="select role" onChange={handleChangeLogin} required>
                   <option>select role</option>
                   <option>User</option>
                   <option>Admin</option>
