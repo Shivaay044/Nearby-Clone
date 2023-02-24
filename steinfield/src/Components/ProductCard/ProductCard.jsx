@@ -14,7 +14,7 @@ export const ProductCard = ({id,imageUrl,merchantCity,distanceFromUser,merchantL
     <p style={{fontWeight:'bold',fontSize:'12px'}}>{distanceFromUser}</p><p style={{fontSize:'12px',color:'gray' }}>{'- '}{merchantLocation}</p>
     <p style={{fontSize:'12px',color:'gray' }}>{merchantCity}</p></div> 
       <div className='display-flex-container'>
-      <p style={{fontSize:'12px'}}>{'Drinks with Starters from '} </p>
+     <button style={{backgroundColor:'#F47B5F',color:'white',border:'none'}}>Deals</button> <p style={{fontSize:'12px'}}>{'Drinks with Starters from '} </p>
       <BiRupee style={{fontSize:'12px'}}/>
       <p style={{fontSize:'12px'}}> {price}</p>
 

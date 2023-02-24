@@ -1,11 +1,11 @@
 .productPage{
 
     width: 80%;
-    border:1px solid red;
+    /* border:1px solid red; */
     margin:auto;
     display :grid;
     grid-template-columns: 26% 72%;
-    height:800px;
+    height:auto;
     gap:2%;
  
 
@@ -18,18 +18,20 @@ body{
 }
 
 .sidebar {
-    display: grid;
-    grid-template-rows: 30% 67%;
-   height:50%;
+    display:flex;
+  flex-direction: column;
   
-    row-gap: 3%;
-
+    height: 900px;
+  
+    gap: 2%;
+  
 }
 .sidebar>div{
  
     background-color:white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
+    width:90%;
 padding: 4%;
 
 }
@@ -39,14 +41,54 @@ padding: 4%;
     grid-template-columns: repeat(3,1fr);
     /* grid-template-rows: repeat(6,%); */
 column-gap:2.5%;
-row-gap: 2%;
+row-gap: 1%;
 }
 
 .filtering-container{
+  
  display: flex;
  flex-direction: column; 
 align-items: flex-start;
+height: 70%;
 
    
 
+}
+
+.offer-slider{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height:25%;
+
+
+}
+
+.subNav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+ 
+    
+}
+
+.sorting-div{
+    width: 20%;
+display: flex;
+align-items: center;
+/* gap: 1%; */
+justify-content: space-around;
+
+}
+
+.sort-btn{
+font-size: 11px;
+color: #686654;
+padding: 10px ;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+background-color: white;
+border: none;
+border-radius: 5%;
 }
