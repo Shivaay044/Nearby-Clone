@@ -1,0 +1,22 @@
+#linkImage{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border-bottom: 1px solid rgb(199, 197, 197);
+    width: 100%;
+    margin: 97px auto 50px auto;
+    font-size: 14px;
+}   
+#top{
+    margin-top: 15%;
+    padding: 12% 2% 12% 2%;
+}
+#top:hover{
+    background-color: rgb(249, 247, 247);
+}
+#images{
+    height: 30%;
+    width: 20%;
+}
+.crousel{
+    margin-bottom: 60px;
+}
