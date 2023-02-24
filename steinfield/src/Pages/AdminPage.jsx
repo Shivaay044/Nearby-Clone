@@ -1,20 +1,20 @@
 import React, {useState,useEffect} from 'react'
 import { Button, FormControl, FormLabel, Input } from '@chakra-ui/react'
 import styled from 'styled-components'
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector} from "react-redux";
 import {getAdminData, addAdminData} from "../Redux/Admin/action"
 
 export const AdminPage = () => {
     // const adminData = useSelector((store) => store.AdminReducer.adminData);
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     const [name, setName] = useState("");
     const [price, setPrice] = useState(0);
     const [image, setImage] = useState("");
     const [place, setPlace] = useState("");
     const [city, setCity] = useState("");
-    useEffect(() => {
-        dispatch(getAdminData);
-      }, []);
+    // useEffect(() => {
+    //     dispatch(getAdminData);
+    //   }, []);
       const handleAddData = (e) => {
         e.preventDefault();
         let newData = {
@@ -22,10 +22,10 @@ export const AdminPage = () => {
           image,
           price,
         };
-        dispatch(addAdminData(newData)).then((res) => {
-            dispatch(getAdminData);
-            //console.log(newData);
-          });
+        // dispatch(addAdminData(newData)).then((res) => {
+        //     dispatch(getAdminData);
+        //     //console.log(newData);
+        //   });
           setName("");
           setImage("");
           setPrice("");
@@ -40,8 +40,8 @@ export const AdminPage = () => {
   <FormLabel>Merchant Name</FormLabel>
   <Input placeholder='Merchant Name' value={name} />
   
-  <FormLabel>Image URL</FormLabel>
-  <Input placeholder='Image URL' value={image} type="url" />
+  <FormLabel >Image URL</FormLabel>
+  <Input placeholder='Image URL' value={image} type="url"  />
 
   <FormLabel>Merchant Location</FormLabel>
   <Input placeholder='Merchant Location' value={place}/>
