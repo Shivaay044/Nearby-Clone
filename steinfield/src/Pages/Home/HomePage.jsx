@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import { crousel1, crousel2, linkImages } from "./data";
+import { crousel1, crousel2, linkImages, scrapData } from "./data";
 import Carousel from 'react-bootstrap/Carousel';
 import "./Home.css";
 
 function HomePage(){
-    
+    const data = scrapData[0];
+    console.log(data);
     return(
         <div id="home">
             <div id="linkImage">
