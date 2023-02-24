@@ -1,9 +1,14 @@
 import { combineReducers, legacy_createStore } from "redux";
 import {reducer as AdminReducer} from "../Redux/Admin/reducer"
+import { reducer as appReducer } from "./appReducer/reducer";
+import { reducer as authReducer } from "./Authentication/reducer";
+
+
 
 const rootReducer = combineReducers({
    // reducers here
-   AdminReducer
+ appReducer,  
+ authReducer
 })
 
 export const store = legacy_createStore(rootReducer)
