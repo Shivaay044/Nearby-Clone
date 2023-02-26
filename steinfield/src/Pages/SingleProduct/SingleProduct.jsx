@@ -6,6 +6,7 @@ import styles from './SingleProduct.module.css'
 
 // import  Navbar  from "../Components/Navbar"
 import { useParams } from "react-router-dom";
+import {Button,Text} from '@chakra-ui/react'
 
 const SingleProduct = () => {
   const params = useParams();
@@ -14,9 +15,9 @@ const SingleProduct = () => {
   const [data, setData] = useState({});
   //  console.log(id)
   const getProduct = (dispatch) => {
-    console.log("ac", `http://localhost:8080/data/${params.id}`)
+    console.log("ac", `https://stienfildapi.onrender.com/data/${params.id}`)
     return axios
-      .get(`http://localhost:8080/data/${params.id}`)
+      .get(`https://stienfildapi.onrender.com/data/${params.id}`)
       .then((r) => setData(r.data))
 
       .catch((e) => console.log(e));
@@ -52,13 +53,13 @@ const SingleProduct = () => {
         {/* <Navbar/> */}
       </div>
       <div className={styles.outer} >
-        <div className={styles.div1} style={{}}>
+        <div className={styles.div1} >
           <h1></h1>
-          <p style={{ margin: "1px", color: "gray", }}> {data.Category}</p>
+          <Text style={{ margin: "1px", color: "gray", }}> {data.Category}</Text>
           <h3 >{data.merchantName}</h3>
           <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
           <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
-          <Link className='Link' to={`/cart`} ><button style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "70px" }}>view</button></Link>
+          <Link className='Link' to={`/cart`} ><Button style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "70px" }}>view</Button></Link>
         </div>
         <div className={styles.div2} style={{}}>
           <div style={{ margin: "10px", border: "none", width: "40%" }}>
@@ -81,30 +82,25 @@ const SingleProduct = () => {
       </div>
 
       <div style={{ width: "80%", backgroundColor: "white", height: "550px", margin: "auto", marginTop: "20px" }}>
-        <div style={{ width: "100%", border: " 1px solid gray", height: "70px", display: "flex", gap: "5px" }}>
-          <div style={{ border: "1px solid gray", width: "70px", height: "10px", padding: "30px 0", color: "black", backgroundColor: "lightgray" }}>DEALS</div>
-          <div style={{ border: "1px solid gray", width: "70px", height: "10px", padding: "30px 0", backgroundColor: "lightgray" }}>VIEW</div>
-          <div style={{ border: "1px solid gray", width: "70px", height: "10px", padding: "30px 0", backgroundColor: "lightgray" }}>About</div>
-          <div style={{ border: "1px solid gray", width: "70px", height: "10px", padding: "30px 0", backgroundColor: "lightgray" }}>photos</div>
-        </div>
+        
         <div style={{ width: "100%", border: " ", height: "10px", padding: "30px 10px", color: "gray", textAlign: "start" }}>{data.merchantLocation}</div>
         <div style={{ display: "flex", border: "" ,marginLeft :"20px"}}>
           <div style={{width:"70%"}}>
-            <div style={{ border: "1px solid red", width: "100%", backgroundColor: "#ffddee" ,borderRadius:"2em",marginBottom:"20px"}}>
+            <div style={{ padding:'10px', width: "100%", backgroundColor: "#ffddee" ,borderRadius:"2em",marginBottom:"20px"}}>
               {/* <p style={{ margin: "1px", color: "gray", }}> {data.Category}</p> */}
               <h3 >{data.merchantName}</h3>
               <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
               <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
               <Link className='Link' to={`/cart`} ><button style={{ margin: "10px", backgroundColor: "pink", borderRadius: "1em", width: "150px",border:"1px solid red" }}>view</button></Link>
             </div>
-            <div style={{ border: " 1px solid blue", width: "100%", backgroundColor: "lightblue" ,borderRadius:"2em",marginBottom:"20px"}}>
+            <div style={{ padding:'10px', width: "100%", backgroundColor: "lightblue" ,borderRadius:"2em",marginBottom:"20px"}}>
               {/* <p style={{ margin: "1px", color: "gray", }}> {data.Category}</p> */}
               <h3 >{data.merchantName}</h3>
               <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
               <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
-              <Link className='Link' to={`/checkout`} ><button  style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "150px",border:"1px solid blue" }}>Buy</button></Link></div>
+              <Link className='Link' to={`/checkout/${params.id}`} ><button   style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "150px",border:"1px solid blue" }}>Buy</button></Link></div>
           </div>
-          <div style={{width:"20%",border:"1px solid gray" ,marginLeft:"30px",height:"300px",padding:"10px"}}>
+          <div style={{width:"20%" , borderRadius:'10px', backgroundColor:'#ffddee', marginLeft:"30px",height:"250px",padding:"10px", boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px'}}>
             <h2>Win Rs 500 instant off code</h2>
             <p>Valid on all prepaid deals | No minimum purchase</p>
             <div style={{border:"1px solid gray",paddingRight:"0px",marginBottom:"90px"}}>NBLUCKY<button>Copy</button></div>

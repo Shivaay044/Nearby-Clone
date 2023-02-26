@@ -7,6 +7,7 @@ import Checkout from "./Checkout/Checkout";
 import { Product } from "./Product/Product";
 import SingleProduct from "./SingleProduct/SingleProduct";
 import CartItem from "../Components/CartItem";
+import { Heading } from "@chakra-ui/react";
 
 
 
@@ -17,9 +18,10 @@ function AllRoutes() {
         <Route path={"/product"}  element={<Product/>}/ >
         <Route path={"/product/:id"}  element={<SingleProduct/>}/ >
         <Route path={"/cart"}  element={<CartItem/>}/ >
-        <Route path={"/checkout"}  element={<Checkout/>}/ >
+        <Route path={"/checkout/:id"}  element={<Checkout/>}/ >
         <Route path={"/admin"}  element={<AdminPage/>}/ >
         <Route path={"/login"}  element={<Login/>}/ >
+        <Route path={"*"}  element={<Heading style={{margin:'10%'}}> 404 Page not found...</Heading>}/ >
     </Routes>
   );
 }

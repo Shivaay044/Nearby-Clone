@@ -2,25 +2,29 @@ import React from 'react'
 import './ProductCard.css'
 import {BiRupee} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
+import {Heading,Text} from '@chakra-ui/react'
 export const ProductCard = ({id,imageUrl,merchantCity,distanceFromUser,merchantLocation,merchantName,price}) => {
   return (
     
     <div className='product'>
       <Link className='Link' to={`/product/${id}`} >
       <img src={imageUrl} alt={merchantName} width={'100%'} style={{borderRadius:'2%'}}/>
-    
+      </Link>
       
-      <h4 style={{fontSize:'15px'}}className='display-flex-container'>{merchantName}</h4>
+      <Heading size ='sm'className='display-flex-container'>{merchantName}</Heading>
     <div className='display-flex-container'>
-    <p style={{fontWeight:'bold',fontSize:'12px'}}>{distanceFromUser}</p><p style={{fontSize:'12px',color:'gray' }}>{'- '}{merchantLocation}</p>
-    <p style={{fontSize:'12px',color:'gray' }}>{merchantCity}</p></div> 
+      <Text >{distanceFromUser}</Text>
+      <Text color={'gray'}>{'- '}{merchantLocation}</Text>
+   
+      </div> 
       <div className='display-flex-container'>
-     <button style={{backgroundColor:'#F47B5F',color:'white',border:'none' ,fontSize:'12px',padding:'0 5px'}}>DEALS</button> <p style={{fontSize:'12px'}}>{'Drinks with Starters from '} </p>
+     <button style={{backgroundColor:'#F47B5F',color:'white',border:'none' ,fontSize:'12px',padding:'0 5px'}}>DEALS</button>
+      <Text style={{fontSize:'12px'}}>{'Drinks with Starters from '} </Text>
       <BiRupee style={{fontSize:'12px'}}/>
-      <p style={{fontSize:'12px'}}> {price}</p>
+      <Text> {price}</Text>
 
       </div> 
-      </Link>
+     
     </div>
   
   )

@@ -19,9 +19,10 @@ import {
   Stack,
   Radio,
   useToast,
+  Img,
 } from "@chakra-ui/react";
 import styles from "./Checkout.module.css";
-// import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
 // import Navbar from "../Navbar";
@@ -30,24 +31,24 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 const Checkout = () => {
 
-  // const params = useParams();
-  // console.log("uu", params)
+  const params = useParams();
+  console.log("uu", params)
 
-  // const [data, setData] = useState({});
-  // //  console.log(id)
-  // const getProduct = (dispatch) => {
-  //   console.log("ac", `http://localhost:8080/data/${params.id}`)
-  //   return axios
-  //     .get(`http://localhost:8080/data/${params.id}`)
-  //     .then((r) => setData(r.data))
 
-  //     .catch((e) => console.log(e));
-  // };
-  // useEffect(() => {
-  //   getProduct();
-  // }, []);
-  // console.log(data)
+  const [data, setData] = useState({});
+  //  console.log(id)
+  const getProduct = (dispatch) => {
+    console.log("ac", `https://stienfildapi.onrender.com/data/${params.id}`)
+    return axios
+      .get(`https://stienfildapi.onrender.com/data/${params.id}`)
+      .then((r) => setData(r.data))
 
+      .catch((e) => console.log(e));
+  };
+  useEffect(() => {
+    getProduct();
+  }, []);
+console.log(data)
   const [value, setValue] = React.useState("Cash on delivery");
   // const {cart, isLoading} = useSelector((store)=>{return {
   //   cart: store.CartReducer.cart,   
@@ -271,8 +272,8 @@ const Checkout = () => {
                 Your orders
               </Heading>
               <Box
-                border={"1px solid"}
-                borderColor="gray.300"
+                border={"1px solid "}
+                borderColor="gray.500"
                 padding="0 2rem"
                 m={"1.5rem 0"}
                 color="#e40046"
@@ -283,13 +284,23 @@ const Checkout = () => {
                   borderBottom={"1px solid"}
                   borderColor="gray.300"
                 >
-                  <Text>Product</Text>
+             
+                  <div style={{width:'100%', display:'flex' ,justifyContent:'space-between'}}>
+                  <Img src={data.imageUrl} style={{margin:'10px',borderRadius:'10px'}} width='80%'/>
+                  <div style={{ marginLeft:'10px',display:'flex' ,flexDirection:'column',justifyContent:'center',color:'black', textAlign:'justify', alignItems:'flex-start'}}>
+                  <Text > Price :{data.price}</Text>
+             
+             <Text>{data.merchantName}</Text>
+                  </div>
+                
+                  </div>
+               
                   
                   {/* <Text>Subtotal</Text> */}
                 </Flex>
                 {/* <Box>
-                  {Data.length > 0 &&
-                    Data.map((item) => (
+                  {data.length > 0 &&
+                    data.map((item) => (
                       <Box p="1rem 0" key={item.id} textAlign="start">
                         <Flex
                           justifyContent={"space-between"}
@@ -298,7 +309,7 @@ const Checkout = () => {
                         >
                           <Box width={"80%"}>
                             <Box mb={".5rem"}>
-                              {item.title} x {item.quantity}
+                              {item.price} x {item.quantity}
                             </Box>
                             <Box>Size: {item.size}</Box>
                           </Box>
@@ -316,10 +327,7 @@ const Checkout = () => {
                   pb={".5rem"}
                 >
                   <Box as="b" fontSize="lg">
-                  {/* <Text>Total Cart Amount:₹ {cart.length>0? cart.reduce((acc,el,index)=>{
-            return acc +el.price
-        },0)
-        : 0 }</Text> */}
+                  <Text>Total Cart Amount:₹ {data.price}</Text>
                   </Box>
                   
                 </Flex>

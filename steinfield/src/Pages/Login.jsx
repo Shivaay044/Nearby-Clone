@@ -34,7 +34,7 @@ function Login() {
    const [crud,setCrud] = useState({})
 
    useEffect(() =>{
-    LoginData.role && axios.get(`http://localhost:8080/${LoginData.role}`)
+    LoginData.role && axios.get(`https://stienfildapi.onrender.com/${LoginData.role}`)
       .then((res) =>{setCrud(res.data)})
    },[LoginData])
 
@@ -57,7 +57,7 @@ function Login() {
 
    const handleSignup = (e) =>{
         e.preventDefault()
-        SignupData.role && axios.post(`http://localhost:8080/${SignupData.role}`,SignupData)
+        SignupData.role && axios.post(`https://stienfildapi.onrender.com/${SignupData.role}`,SignupData)
        .then((res) =>{toast.success("Registered Successfully !")})
        .catch((err) =>{toast.error("Failed, try again")})
    }

@@ -69,7 +69,7 @@ export const addAdminDataRequest = () => {
   export const getAdminData = (dispatch) => {
     dispatch(getAdminDataRequest());
     axios
-      .get(` http://localhost:8080/data`)
+      .get(` https://stienfildapi.onrender.com/data`)
       .then((res) => {
         dispatch(getAdminDataSuccess(res.data));
        // console.log(res.data)
@@ -80,7 +80,7 @@ export const addAdminDataRequest = () => {
   export const addAdminData = (newData) => (dispatch) => {
     dispatch(addAdminDataRequest());
     return axios
-      .post(`http://localhost:8080/data`, newData)
+      .post(`https://stienfildapi.onrender.com/data`, newData)
       .then(() => {
         dispatch(addAdminDataSuccess());
       })
@@ -92,7 +92,7 @@ export const addAdminDataRequest = () => {
   export const deleteAdminData = (id) => (dispatch) => {
     dispatch(deleteAdminDataRequest());
     return axios
-      .delete(`http://localhost:8080/data/${id}`)
+      .delete(`https://stienfildapi.onrender.com/data/${id}`)
       .then(() => {
         dispatch(deleteAdminDataSuccess());
       })
@@ -104,7 +104,7 @@ export const addAdminDataRequest = () => {
   export const updateAdminData = (id,newEditData) => (dispatch) => {
     dispatch(updateAdminDataRequest());
     return axios
-      .patch(`http://localhost:8080/data/${id}`,newEditData)
+      .patch(`https://stienfildapi.onrender.com/data/${id}`,newEditData)
       .then((res) => {
         dispatch(updateAdminDataSuccess(res.data));
       })

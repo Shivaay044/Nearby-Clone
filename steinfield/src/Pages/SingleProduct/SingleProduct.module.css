@@ -1,29 +1,42 @@
 .outer{
-    width :80%;
+    width :90%;
     display: flex;
+    /* flex-direction: column-reverse; */
      margin: 10px; 
      /* border:1px solid blue; */
-      justify-content: space-evenly ;
+      /* justify-content: space-evenly ; */
       background-color:white;
       margin:auto;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
 }  
 img{
     width:100%
 }
 .div1{
+    width:50%;
+    height:200px;
+
     margin-left: 20px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+/* align-items: center; */
     /* border: solid red; */
    text-align: start;
    line-height: 5px;
    margin-top:0px;
+
 }
 .div2{
     display: flex; 
     /* border: solid yellow ; */
-    margin-right:20px
+    margin-right:20px;
+    
 }
 #main_single{
     margin-top: 120px;
+    
 }
 @media only screen and (min-width: 600px) {
 .outer{
@@ -35,6 +48,7 @@ img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color:rgb(130, 99, 159)
 }
 
 }
