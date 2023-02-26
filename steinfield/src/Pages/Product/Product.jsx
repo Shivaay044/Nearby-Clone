@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import {useSelector,useDispatch} from 'react-redux'
 import { getProducts } from '../../Redux/appReducer/action';
 import { useLocation, useSearchParams } from 'react-router-dom';
+import { Heading ,Input,Text} from '@chakra-ui/react';
 
 export const Product = () => {
 
@@ -86,7 +87,7 @@ const location=useLocation()
     backgroungColor:'red'
   }
   return (
-    <>
+    <div className='body'>
     <div className='subNav'>
       <div className='nav-heading'>
       <h4 style={{   color:'#55504B'}}>Promos & Filters</h4> 
@@ -108,29 +109,29 @@ const location=useLocation()
 
     
 <Slider {...settings}>
-          <div>
-            <h3>Win Rs 500 instant off code</h3>
+          <div className='slider-card'>
+            <Heading size='md'>Win Rs 500 instant off code</Heading>
             <p>Valid on all prepaid deals | No minimum purchase</p>
            
          
           </div>
-          <div><h3>25% OFF</h3>
+          <div className='slider-card'><Heading size='lg'>25% OFF</Heading>
             <p>Get discount code of 25% value | All Restaurant Deals</p>
           </div>
-          <div>
-          <h3>25% OFF</h3>
+          <div className='slider-card'>
+          <Heading size='lg'>25% OFF</Heading>
            <p>Get discount code of 25% value | All Spa Deals</p> 
           </div>
-          <div>
-          <h3>25% OFF</h3>
+          <div className='slider-card'>
+          <Heading size='lg'>25% OFF</Heading>
             <p>Get discount code of 25% value | All Activities Deals</p>
           </div>
-          <div>
-          <h3>25% OFF</h3>
+          <div className='slider-card'>
+          <Heading size='lg'>25% OFF</Heading>
             <p>Get discount code of 25% value | All Salon Deals</p>
           </div>
-          <div>
-          <h3>5% OFF</h3>
+          <div className='slider-card'>
+          <Heading size='lg'>5% OFF</Heading>
             <p>5% Instant discount upto ₹100 | Valid for new users only.</p>
           </div>
         </Slider> 
@@ -139,14 +140,14 @@ const location=useLocation()
       </div>
       
       <div className='filtering-container'>
-        <p style={{fontSize:'16px',color:'#333333'}}>Categories</p>
-        <p>Restaruants</p>
-        <div style={{border:'1px solid gray',width:'100%'}}></div>
-        <p>Location</p>
-        <input placeholder='search for a location'/>
-
-      
-            
+        <div className='uper-filtering-container'>
+          <Text style={{fontSize:'18px',color:'#333333'}}>Categories</Text>
+         <div style={{display:'flex',justifyContent:'space-between'}}> <p>Restaruants</p><span>({products.length})</span></div>
+          <div style={{border:'1px solid gray',width:'100%'}}></div>
+          <p>Location</p>
+          <Input placeholder='search for a location'/>
+          </div>
+         
            <div>
             <input type={"checkbox"} onChange={handleFiltering} value ='Greater Kailash 1' checked={merchantLocation.includes('Greater Kailash 1')}/>
             <label>Greater Kailash 1 </label>
@@ -171,16 +172,9 @@ const location=useLocation()
             <div>
             <input type={"checkbox"} onChange={handleFiltering} value={'Indraprastha'} checked={merchantLocation.includes('Indraprastha')} />
             <label>Indraprastha </label>
-            </div>
-            <div>
-
-              
-            {/* <input type={"checkbox"}  /> */}
-            {/* <label>Greater kailashn 1 </label> */}
-
-            </div>
-
-      </div>
+              </div>
+      
+        </div>
     </div>  
 
     <div className='product-container'>{
@@ -193,6 +187,6 @@ const location=useLocation()
 
 
 </div>
-</>
+</div>
   )
 }
