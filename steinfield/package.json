@@ -22,6 +22,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.29.0",
     "react-toast": "^1.0.3",
     "redux": "^4.2.1",
