@@ -21,7 +21,8 @@ export const reducer = (state=initialState, {type, payload}) => {
     case POST_CART_PRODUCTS_SUCCESS:
       return {...state, isLoading:false ,cart:payload}
     case POST_CART_PRODUCTS_FAILURE:
-      return {...state, isError:true}  
+      return {...state, isError:true} 
+       
       case DELETE_CART_PRODUCTS_REQUEST:
         return {...state, isLoading:true }
       case DELETE_CART_PRODUCTS_SUCCESS:
