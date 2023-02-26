@@ -1,0 +1,16 @@
+
+.gradient  span{
+
+    font-size: 18px;
+   
+  
+  font-weight: 600;
+
+} 
+
+.gradient {
+  background: -webkit-linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5 80%);
+}
+/* .body{
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000")
+} */
