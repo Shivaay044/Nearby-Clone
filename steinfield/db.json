@@ -669,20 +669,6 @@
       "password": "1234",
       "role": "user",
       "id": 2
-    },
-    {
-      "name": "user1",
-      "email": "MadhvendraSingh@gmail.com",
-      "password": "123456",
-      "role": "user",
-      "id": 3
-    },
-    {
-      "name": "user1",
-      "email": "rajeshwarsingh4018@gmail.com",
-      "password": "123456",
-      "role": "user",
-      "id": 4
     }
   ],
   "admin": []

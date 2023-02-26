@@ -7,6 +7,13 @@
 
 /* <------------SignUp-----------> */
 
+#credential-main{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
 .main-signup {
   border: 1px solid #000;
   height: 100vh;
