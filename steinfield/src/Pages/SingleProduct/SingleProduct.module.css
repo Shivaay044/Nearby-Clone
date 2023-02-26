@@ -1,0 +1,50 @@
+.outer{
+    width :80%;
+    display: flex;
+     margin: 10px; 
+     /* border:1px solid blue; */
+      justify-content: space-evenly ;
+      background-color:white;
+      margin:auto;
+}  
+img{
+    width:100%
+}
+.div1{
+    margin-left: 20px;
+    /* border: solid red; */
+   text-align: start;
+   line-height: 5px;
+   margin-top:0px;
+}
+.div2{
+    display: flex; 
+    /* border: solid yellow ; */
+    margin-right:20px
+}
+
+@media only screen and (min-width: 600px) {
+.outer{
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.div2{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+@media only screen and (max-width: 600px) {
+    .outer{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .div2{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
