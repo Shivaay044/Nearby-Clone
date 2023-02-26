@@ -77,9 +77,9 @@ export const AdminPage = () => {
          
 
   return (
-    <div>
+    <div >
+   <div style={{background: "-webkit-linear-gradient(60deg, #ee7752,#ffff, #23a6d5 80%)"}}>
     <Wrapper>
-   
  <form onSubmit={(e)=>{handleAddData(e)}} >
   <FormControl>
   <FormLabel>Merchant Name</FormLabel>
@@ -103,12 +103,13 @@ export const AdminPage = () => {
 </form>
 
  </Wrapper>
+ </div>
 
  <div className={styles.AdminProdcutCard}>
   <br />
         <TableContainer >
-          <Table variant="striped" colorScheme="teal">
-            <Thead bgColor={"blue.400"}>
+          <Table variant="striped" colorScheme="cyan">
+            <Thead  w={"100%"} bgColor={"blue.400"}>
               <Tr>
                 <Th color="white">S. No.</Th>
                 <Th color="white">Name</Th>
@@ -116,6 +117,8 @@ export const AdminPage = () => {
                   Price
                 </Th>
                 <Th color="white">Image</Th>
+                <Th color="white">Location</Th>
+                <Th  textAlign={"center"} color="white">City</Th>
                 <Th color="white">EDIT</Th>
                 <Th color="white">DELETE</Th>
               </Tr>
@@ -160,8 +163,9 @@ const Wrapper=styled.div`
     padding: 60px;
     width: 50%;
     margin: auto;
-    
-   
+    margin-top: 100px;
+    background: -webkit-linear-gradient(65deg, #ee7752,#ffff, #23a6d5 80%);
+   border-radius: 5%;
 `;
 
 
