@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useCallback, useEffect } from "react";
 import {
   Box,
@@ -20,6 +21,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import styles from "./Checkout.module.css";
+// import { useParams } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
 // import Navbar from "../Navbar";
@@ -27,6 +29,25 @@ import { useDispatch, useSelector } from "react-redux";
 import { Navigate, useNavigate } from "react-router-dom";
 
 const Checkout = () => {
+
+  // const params = useParams();
+  // console.log("uu", params)
+
+  // const [data, setData] = useState({});
+  // //  console.log(id)
+  // const getProduct = (dispatch) => {
+  //   console.log("ac", `http://localhost:8080/data/${params.id}`)
+  //   return axios
+  //     .get(`http://localhost:8080/data/${params.id}`)
+  //     .then((r) => setData(r.data))
+
+  //     .catch((e) => console.log(e));
+  // };
+  // useEffect(() => {
+  //   getProduct();
+  // }, []);
+  // console.log(data)
+
   const [value, setValue] = React.useState("Cash on delivery");
   // const {cart, isLoading} = useSelector((store)=>{return {
   //   cart: store.CartReducer.cart,   

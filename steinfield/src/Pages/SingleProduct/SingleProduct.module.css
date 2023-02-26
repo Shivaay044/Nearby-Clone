@@ -22,7 +22,9 @@ img{
     /* border: solid yellow ; */
     margin-right:20px
 }
-
+#main_single{
+    margin-top: 120px;
+}
 @media only screen and (min-width: 600px) {
 .outer{
     flex-wrap: wrap;
