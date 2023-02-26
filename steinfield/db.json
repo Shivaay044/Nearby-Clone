@@ -662,16 +662,24 @@
       "price": 546,
       "id": 40
     }
-  ]
-}
-
-    }
   ],
   "user": [
+    {
+    "name": "Shivendra",
+    "email": "wqrewr@gmail.com",
+    "password": "1234",
+    "role": "user",
+    "id": 1
+    },
+    {
+    "name": "Shivendra Singh",
+    "email": "eve.holt@reqres.in",
+    "password": "1234",
+    "role": "user",
+    "id": 2
+    }
+    ],
+    "admin": []
 
-  ],
-  "admin": []
 }
-
-
 
