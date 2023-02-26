@@ -90,8 +90,8 @@
         "merchantId": 6,
         "merchantName": "Smaaash - Noida Pub Exchange",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/5e8574dfd60180000c4fe5bb.jpg",
-        "merchantLocation": "DLF Mall Of India, Sector 18",
-        "merchantCity": "Noida",
+        "merchantLocation": "Samalka",
+        "merchantCity": "New Delhi",
         "distanceFromUser": "434.4 km",
         "Category": "resturant",
         "id": 5,
@@ -102,7 +102,7 @@
         "merchantName": "Glued Reloaded",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f8d65fe5cc6f2000bc17e4b.jpg",
         "merchantLocation": "Aghapur",
-        "merchantCity": "Noida",
+        "merchantCity": "New Delhi",
         "distanceFromUser": "430.5 km",
         "images": [
             "https://img4.nbstatic.in/tr:w-350/5f8d65fe5cc6f2000bc17e4b.jpg",
@@ -137,8 +137,8 @@
         "merchantName": "The Kaanch Restro And Bar",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/62db7f11edffcc000bfade22.jpg",
         "ratingDetails": null,
-        "merchantLocation": "Mayur Vihar Phase 3",
-        "merchantCity": "Mumbai",
+        "merchantLocation": "Karol Bagh",
+        "merchantCity": "New Delhi",
         "distanceFromUser": "433.8 km",
         "images": [
             "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
@@ -153,8 +153,8 @@
         "merchantId": 10,
         "merchantName": "KidZania ",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/606477bb9b6019000bcf4ce7.jpg",
-        "merchantLocation": "Gardens Galleria Mall, Sector 38 A",
-        "merchantCity": "Noida",
+        "merchantLocation": "AeroCity",
+        "merchantCity": "New Delhi",
         "distanceFromUser": "434.2 km",
         "images": [
             "https://img4.nbstatic.in/tr:w-350/606477bb9b6019000bcf4ce7.jpg",
@@ -170,7 +170,7 @@
         "merchantId": 12,
         "merchantName": "RBG - Park Inn by Radisson",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/61c5588e1e2731000ba429c3.jpg",
-        "merchantLocation": "Indraprastha Extension",
+        "merchantLocation": "Indraprastha",
         "merchantCity": "New Delhi",
         "distanceFromUser": "436.7 km",
         "images": [
@@ -203,7 +203,7 @@
         "merchantName": "Tatva - Country Inn & Suites By Radisson Sahibabad",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/6108d4f71e2731000bfb1d1f.jpg",
         "merchantLocation": "Sahibabad",
-        "merchantCity": "Ghaziabad",
+        "merchantCity": "New Delhi",
         "distanceFromUser": "434.7 km",
         "images": [
             "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
@@ -373,7 +373,7 @@
         "merchantId": 20,
         "merchantName": "Hudba",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/5a5dc343e21b84000cd13344.jpg",
-        "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
+        "merchantLocation": "Greater Kailash 1",
         "merchantCity": "New Delhi",
         "distanceFromUser": "442.1 km",
         "images": [
@@ -423,7 +423,7 @@
         "merchantName": "Blue Heritage Spa",
         "imageUrl": "https://img4.nbstatic.in/tr:w-200/6034ca8879600c000ba6ae7f.jpg",
         "ratingDetails": null,
-        "merchantLocation": "GK2 M Block Market, Greater Kailash 2",
+        "merchantLocation": "Karol Bagh",
         "merchantCity": "New Delhi",
         "distanceFromUser": "440.9 km",
         "images": [
@@ -481,7 +481,7 @@
             "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
             "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
         ],
-        "Category": null,
+        "Category": "Salon",
         "id": 29,
         "price": 139
     },
@@ -497,7 +497,7 @@
             "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
             "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
         ],
-        "Category": null,
+        "Category": "Salon",
         "id": 30,
         "price": 140
     },
@@ -549,6 +549,24 @@
             "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
         ],
         "Category": "Spa",
+        "id": 33,
+        "price": 143
+    },
+
+    {
+        "merchantId": 111,
+        "merchantName": "WestSide",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/63c12f6622b317000b618f13.jpg",
+        "ratingDetails": null,
+        "merchantLocation": "Greater Kailash 1",
+        "merchantCity": "Bengaluru",
+        "distanceFromUser": "442 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+        ],
+        "Category": "resturant",
         "id": 33,
         "price": 143
     },
@@ -654,6 +672,15 @@
         "id": 39,
         "price": 149
     }
+],
+
+"user":[
+
+],
+
+"admin":[
+
 ]
+
 }
 

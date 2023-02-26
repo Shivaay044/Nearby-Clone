@@ -4,10 +4,11 @@ import {BiRupee} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 export const ProductCard = ({id,imageUrl,merchantCity,distanceFromUser,merchantLocation,merchantName,price}) => {
   return (
-    <Link className='Link' to={`/product/${id}`} >
+    
     <div className='product'>
+      <Link className='Link' to={`/product/${id}`} >
       <img src={imageUrl} alt={merchantName} width={'100%'} style={{borderRadius:'2%'}}/>
-      
+    
       
       <h4 style={{fontSize:'15px'}}className='display-flex-container'>{merchantName}</h4>
     <div className='display-flex-container'>
@@ -19,7 +20,8 @@ export const ProductCard = ({id,imageUrl,merchantCity,distanceFromUser,merchantL
       <p style={{fontSize:'12px'}}> {price}</p>
 
       </div> 
+      </Link>
     </div>
-    </Link>
+  
   )
 }

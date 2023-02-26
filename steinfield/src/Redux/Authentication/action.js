@@ -1,0 +1,8 @@
+
+export const USER_REQUEST = "USER_REQUEST"
+export const USER_SUCCESS = "USER_SUCCESS"
+export const USER_FAILURE = "USER_FAILURE"
+
+export const ADMIN_REQUEST = "ADMIN_REQUEST"
+export const ADMIN_SUCCESS = "ADMIN_SUCCESS"
+export const ADMIN_FAILURE = "ADMIN_FAILURE"

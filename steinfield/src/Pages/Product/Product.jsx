@@ -63,8 +63,8 @@ const location=useLocation()
 
     let paramObj={
       params:{
-        
-       merchantLocation: SearchParams.get('merchantLocation'),
+
+       merchantLocation: SearchParams.getAll('merchantLocation'),
         _sort : order && 'price',
         _order : order && SearchParams.get('order')
     
@@ -88,8 +88,11 @@ const location=useLocation()
   return (
     <>
     <div className='subNav'>
+      <div className='nav-heading'>
       <h4 style={{   color:'#55504B'}}>Promos & Filters</h4> 
       <h4 style={{   color:'#55504B'}}>Drinks & Nightlife Tags - All in New Delhi</h4>   
+      
+      </div>
       <div className='sorting-div'>
         <button   className='sort-btn' value ='desc'onClick={handleSorting}>Price (High to Low)</button>
       <button   className='sort-btn' value ='asc' onClick={handleSorting}>Price (Low to High)</button>
@@ -106,23 +109,29 @@ const location=useLocation()
     
 <Slider {...settings}>
           <div>
-            <h3>25% OFF</h3>
-            <p>Get discount code of 25% value | All Restaurant Deals</p>
+            <h3>Win Rs 500 instant off code</h3>
+            <p>Valid on all prepaid deals | No minimum purchase</p>
+           
+         
           </div>
           <div><h3>25% OFF</h3>
             <p>Get discount code of 25% value | All Restaurant Deals</p>
           </div>
           <div>
-            <h3>3</h3>
+          <h3>25% OFF</h3>
+           <p>Get discount code of 25% value | All Spa Deals</p> 
           </div>
           <div>
-            <h3>4</h3>
+          <h3>25% OFF</h3>
+            <p>Get discount code of 25% value | All Activities Deals</p>
           </div>
           <div>
-            <h3>5</h3>
+          <h3>25% OFF</h3>
+            <p>Get discount code of 25% value | All Salon Deals</p>
           </div>
           <div>
-            <h3>6</h3>
+          <h3>5% OFF</h3>
+            <p>5% Instant discount upto ₹100 | Valid for new users only.</p>
           </div>
         </Slider> 
 
@@ -145,21 +154,27 @@ const location=useLocation()
             </div>
             <br></br>
             <div>
-            <input type={"checkbox"} onChange={handleFiltering} value='Indra nagar sector 1' checked={merchantLocation.includes('Indra nagar sector 1')}/>
-            <label>Indra nagar sector 1 </label>
+            <input type={"checkbox"} onChange={handleFiltering} value='Karol Bagh' checked={merchantLocation.includes('Karol Bagh')}/>
+            <label>Karol Bagh</label>
             </div>
             <br></br>
             <div>
-            <input type={"checkbox"} onChange={handleFiltering} value={'Yashwantpur'} checked={merchantLocation.includes('Yashwantpur')} />
-            <label>Yashwantpur </label>
+            <input type={"checkbox"} onChange={handleFiltering} value={'Samalka'} checked={merchantLocation.includes('Samalka')} />
+            <label>Samalka </label>
             </div>
             <br></br>
             <div>
-            <input type={"checkbox"} onChange={handleFiltering} value={'Layout area'} checked={merchantLocation.includes('Layout area')} />
-            <label>Layout area </label>
+            <input type={"checkbox"} onChange={handleFiltering} value={'AeroCity'} checked={merchantLocation.includes('AeroCity')} />
+            <label>AeroCity </label>
             </div>
             <br></br>
             <div>
+            <input type={"checkbox"} onChange={handleFiltering} value={'Indraprastha'} checked={merchantLocation.includes('Indraprastha')} />
+            <label>Indraprastha </label>
+            </div>
+            <div>
+
+              
             {/* <input type={"checkbox"}  /> */}
             {/* <label>Greater kailashn 1 </label> */}
 
