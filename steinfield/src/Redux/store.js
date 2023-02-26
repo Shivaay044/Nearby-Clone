@@ -1,7 +1,9 @@
-import {applyMiddleware, combineReducers, legacy_createStore } from "redux";
+import { combineReducers, legacy_createStore,applyMiddleware } from "redux";
+
 import {reducer as AdminReducer} from "../Redux/Admin/reducer"
 import thunk from "redux-thunk";
 import { reducer as appReducer } from "./appReducer/reducer";
+
 import { reducer as authReducer } from "./Authentication/reducer";
 
 

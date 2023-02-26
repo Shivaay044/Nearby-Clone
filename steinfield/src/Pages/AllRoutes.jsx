@@ -1,5 +1,6 @@
 import React from "react";
-import {Route, Routes} from "react-router-dom"
+import {Route, Routes} from "react-router-dom";
+import { Product } from "./Product/Product";
 import Login from "./Login";
 import HomePage from "./Home/HomePage";
 import SingleProduct from "./SingleProduct/SingleProduct";
@@ -9,8 +10,10 @@ import SingleProduct from "./SingleProduct/SingleProduct";
 function AllRoutes() {
   return (
     <Routes>
+    
+
         <Route path={"/"}  element={<HomePage/>}/ >
-        <Route path={"/product"}  element={<h1>Hello Product</h1>}/ >
+        <Route path={"/product"}  element={<Product/>}/ >
         <Route path={"/product/:id"}  element={<SingleProduct/>}/ >
         <Route path={"/cart"}  element={<h1>Hello Cart</h1>}/ >
         <Route path={"/checkout"}  element={<h1>Hello World</h1>}/ >

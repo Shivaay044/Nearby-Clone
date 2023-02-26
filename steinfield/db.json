@@ -87,33 +87,33 @@
       "price": 114
     },
     {
-      "merchantId": 6,
-      "merchantName": "Smaaash - Noida Pub Exchange",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5e8574dfd60180000c4fe5bb.jpg",
-      "merchantLocation": "DLF Mall Of India, Sector 18",
-      "merchantCity": "Noida",
-      "distanceFromUser": "434.4 km",
-      "Category": "resturant",
-      "id": 5,
-      "price": 115
+        "merchantId": 6,
+        "merchantName": "Smaaash - Noida Pub Exchange",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/5e8574dfd60180000c4fe5bb.jpg",
+        "merchantLocation": "Samalka",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "434.4 km",
+        "Category": "resturant",
+        "id": 5,
+        "price": 115
     },
     {
-      "merchantId": 7,
-      "merchantName": "Glued Reloaded",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f8d65fe5cc6f2000bc17e4b.jpg",
-      "merchantLocation": "Aghapur",
-      "merchantCity": "Noida",
-      "distanceFromUser": "430.5 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/5f8d65fe5cc6f2000bc17e4b.jpg",
-        "https://img4.nbstatic.in/tr:w-350/5f8fd1465cc6f2000bc1833e.jpg",
-        "https://img4.nbstatic.in/tr:w-350/5f96817ac4d55d000b18b5b0.jpg",
-        "https://img4.nbstatic.in/tr:w-350/5f968185c4d55d000b18b5b2.jpg",
-        "https://img4.nbstatic.in/tr:w-350/5f9681915cc6f2000bc192bc.jpg"
-      ],
-      "Category": "resturant",
-      "id": 6,
-      "price": 116
+        "merchantId": 7,
+        "merchantName": "Glued Reloaded",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f8d65fe5cc6f2000bc17e4b.jpg",
+        "merchantLocation": "Aghapur",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "430.5 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/5f8d65fe5cc6f2000bc17e4b.jpg",
+            "https://img4.nbstatic.in/tr:w-350/5f8fd1465cc6f2000bc1833e.jpg",
+            "https://img4.nbstatic.in/tr:w-350/5f96817ac4d55d000b18b5b0.jpg",
+            "https://img4.nbstatic.in/tr:w-350/5f968185c4d55d000b18b5b2.jpg",
+            "https://img4.nbstatic.in/tr:w-350/5f9681915cc6f2000bc192bc.jpg"
+        ],
+        "Category": "resturant",
+        "id": 6,
+        "price": 116
     },
     {
       "merchantId": 8,
@@ -133,54 +133,54 @@
       "price": 117
     },
     {
-      "merchantId": 9,
-      "merchantName": "The Kaanch Restro And Bar",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/62db7f11edffcc000bfade22.jpg",
-      "ratingDetails": null,
-      "merchantLocation": "Mayur Vihar Phase 3",
-      "merchantCity": "Mumbai",
-      "distanceFromUser": "433.8 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
-      ],
-      "Category": "resturant",
-      "id": 8,
-      "price": 118
+        "merchantId": 9,
+        "merchantName": "The Kaanch Restro And Bar",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/62db7f11edffcc000bfade22.jpg",
+        "ratingDetails": null,
+        "merchantLocation": "Karol Bagh",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "433.8 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+        ],
+        "Category": "resturant",
+        "id": 8,
+        "price": 118
     },
     {
-      "merchantId": 10,
-      "merchantName": "KidZania ",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/606477bb9b6019000bcf4ce7.jpg",
-      "merchantLocation": "Gardens Galleria Mall, Sector 38 A",
-      "merchantCity": "Noida",
-      "distanceFromUser": "434.2 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/606477bb9b6019000bcf4ce7.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62cd665ab3c621000b60f083.jpg",
-        "https://img4.nbstatic.in/tr:w-350/573d84fdd60180000d3024cf.jpg",
-        "https://img4.nbstatic.in/tr:w-350/604f146e79600c000c8c2073.jpg"
-      ],
-      "Category": "resturant",
-      "id": 9,
-      "price": 119
+        "merchantId": 10,
+        "merchantName": "KidZania ",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/606477bb9b6019000bcf4ce7.jpg",
+        "merchantLocation": "AeroCity",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "434.2 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/606477bb9b6019000bcf4ce7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62cd665ab3c621000b60f083.jpg",
+            "https://img4.nbstatic.in/tr:w-350/573d84fdd60180000d3024cf.jpg",
+            "https://img4.nbstatic.in/tr:w-350/604f146e79600c000c8c2073.jpg"
+        ],
+        "Category": "resturant",
+        "id": 9,
+        "price": 119
     },
     {
-      "merchantId": 12,
-      "merchantName": "RBG - Park Inn by Radisson",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/61c5588e1e2731000ba429c3.jpg",
-      "merchantLocation": "Indraprastha Extension",
-      "merchantCity": "New Delhi",
-      "distanceFromUser": "436.7 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
-      ],
-      "Category": "resturant",
-      "id": 10,
-      "price": 120
+        "merchantId": 12,
+        "merchantName": "RBG - Park Inn by Radisson",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/61c5588e1e2731000ba429c3.jpg",
+        "merchantLocation": "Indraprastha",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "436.7 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+        ],
+        "Category": "resturant",
+        "id": 10,
+        "price": 120
     },
     {
       "merchantId": 13,
@@ -199,20 +199,20 @@
       "price": 121
     },
     {
-      "merchantId": 14,
-      "merchantName": "Tatva - Country Inn & Suites By Radisson Sahibabad",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6108d4f71e2731000bfb1d1f.jpg",
-      "merchantLocation": "Sahibabad",
-      "merchantCity": "Ghaziabad",
-      "distanceFromUser": "434.7 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
-        "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
-      ],
-      "Category": "resturant",
-      "id": 12,
-      "price": 122
+        "merchantId": 14,
+        "merchantName": "Tatva - Country Inn & Suites By Radisson Sahibabad",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/6108d4f71e2731000bfb1d1f.jpg",
+        "merchantLocation": "Sahibabad",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "434.7 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/62db7f11edffcc000bfade22.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f8cedffcc000bfade25.jpg",
+            "https://img4.nbstatic.in/tr:w-350/62db7f7db3c621000b6fb966.jpg"
+        ],
+        "Category": "resturant",
+        "id": 12,
+        "price": 122
     },
     {
       "merchantId": 15,
@@ -370,20 +370,20 @@
       "price": 132
     },
     {
-      "merchantId": 20,
-      "merchantName": "Hudba",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5a5dc343e21b84000cd13344.jpg",
-      "merchantLocation": "GK1 M Block Market, Greater Kailash 1",
-      "merchantCity": "Noida",
-      "distanceFromUser": "442.1 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
-        "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
-        "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
-      ],
-      "Category": "resturant",
-      "id": 23,
-      "price": 133
+        "merchantId": 20,
+        "merchantName": "Hudba",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/5a5dc343e21b84000cd13344.jpg",
+        "merchantLocation": "Greater Kailash 1",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "442.1 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/63625c4022b317000b73b84b.jpg",
+            "https://img4.nbstatic.in/tr:w-350/63625c5422156b000cb5ebf8.jpg",
+            "https://img4.nbstatic.in/tr:w-350/63625c6322b317000b73b84d.jpg"
+        ],
+        "Category": "resturant",
+        "id": 23,
+        "price": 133
     },
     {
       "merchantId": 21,
@@ -419,21 +419,21 @@
       "price": 135
     },
     {
-      "merchantId": 23,
-      "merchantName": "Blue Heritage Spa",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/6034ca8879600c000ba6ae7f.jpg",
-      "ratingDetails": null,
-      "merchantLocation": "GK2 M Block Market, Greater Kailash 2",
-      "merchantCity": "New Delhi",
-      "distanceFromUser": "440.9 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
-      ],
-      "Category": "Spa",
-      "id": 26,
-      "price": 136
+        "merchantId": 23,
+        "merchantName": "Blue Heritage Spa",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/6034ca8879600c000ba6ae7f.jpg",
+        "ratingDetails": null,
+        "merchantLocation": "Karol Bagh",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "440.9 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+        ],
+        "Category": "Spa",
+        "id": 26,
+        "price": 136
     },
     {
       "merchantId": 24,
@@ -469,37 +469,37 @@
       "price": 138
     },
     {
-      "merchantId": 26,
-      "merchantName": "Deepika Makeovers ",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/63a18c3122b317000b8cf1a6.jpg",
-      "ratingDetails": null,
-      "merchantLocation": "Lajpat Nagar 2",
-      "merchantCity": "New Delhi",
-      "distanceFromUser": "441.9 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
-      ],
-      "Category": null,
-      "id": 29,
-      "price": 139
+        "merchantId": 26,
+        "merchantName": "Deepika Makeovers ",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/63a18c3122b317000b8cf1a6.jpg",
+        "ratingDetails": null,
+        "merchantLocation": "Lajpat Nagar 2",
+        "merchantCity": "New Delhi",
+        "distanceFromUser": "441.9 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+        ],
+        "Category": "Salon",
+        "id": 29,
+        "price": 139
     },
     {
-      "merchantId": 27,
-      "merchantName": "Jawed Habib Hair & Beauty",
-      "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f0d8f6a46e0fb000cd8e97d.jpg",
-      "merchantLocation": "Hospital Road, Jangpura Extension",
-      "merchantCity": "Kolkata",
-      "distanceFromUser": "442 km",
-      "images": [
-        "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
-        "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
-      ],
-      "Category": null,
-      "id": 30,
-      "price": 140
+        "merchantId": 27,
+        "merchantName": "Jawed Habib Hair & Beauty",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/5f0d8f6a46e0fb000cd8e97d.jpg",
+        "merchantLocation": "Hospital Road, Jangpura Extension",
+        "merchantCity": "Kolkata",
+        "distanceFromUser": "442 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+        ],
+        "Category": "Salon",
+        "id": 30,
+        "price": 140
     },
     {
       "merchantId": 28,
@@ -551,6 +551,24 @@
       "Category": "Spa",
       "id": 33,
       "price": 143
+    },
+
+    {
+        "merchantId": 111,
+        "merchantName": "WestSide",
+        "imageUrl": "https://img4.nbstatic.in/tr:w-200/63c12f6622b317000b618f13.jpg",
+        "ratingDetails": null,
+        "merchantLocation": "Greater Kailash 1",
+        "merchantCity": "Bengaluru",
+        "distanceFromUser": "442 km",
+        "images": [
+            "https://img4.nbstatic.in/tr:w-350/636377a822b317000bd17ba7.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377c722156b000bb5d41a.jpg",
+            "https://img4.nbstatic.in/tr:w-350/636377d122b317000bd17bab.jpg"
+        ],
+        "Category": "resturant",
+        "id": 33,
+        "price": 143
     },
     {
       "merchantId": 29,

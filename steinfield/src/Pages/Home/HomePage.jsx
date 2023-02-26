@@ -16,7 +16,7 @@ function HomePage(){
                 {
                     linkImages.length>0 && linkImages.map((ele,index)=>{
                         return (
-                        <Link to='#' key={index}>
+                        <Link to='/product' key={index}>
                          <div key={index} className="top">
                             <img id="images" src={ele.img} alt="image" />
                             <p style={{color:"black",fontWeight:"600"}}>{ele.name}</p>
