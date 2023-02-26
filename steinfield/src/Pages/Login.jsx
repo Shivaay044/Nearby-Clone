@@ -87,11 +87,10 @@ function Login() {
     
     if(arr.length>0){
       toast.success("Login Successfully !!")
-      //navigate from here
+      arr[0].role=="user"?navigate("/"):navigate("/admin");
     }else{
       dispatch(loginfaliure())
        toast.error("Credentials wrong");
-       //navigate from here
     }
 
    }

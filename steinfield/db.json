@@ -665,21 +665,34 @@
   ],
   "user": [
     {
-    "name": "Shivendra",
-    "email": "wqrewr@gmail.com",
-    "password": "1234",
-    "role": "user",
-    "id": 1
+      "name": "Shivendra",
+      "email": "wqrewr@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 1
     },
     {
-    "name": "Shivendra Singh",
-    "email": "eve.holt@reqres.in",
-    "password": "1234",
-    "role": "user",
-    "id": 2
+      "name": "Shivendra Singh",
+      "email": "eve.holt@reqres.in",
+      "password": "1234",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "Shivendra",
+      "email": "eve.holt@reqres.in",
+      "password": "12345",
+      "role": "user",
+      "id": 3
     }
-    ],
-    "admin": []
-
+  ],
+  "admin": [
+    {
+      "name": "Shivendra",
+      "email": "wqrewr@gmail.com",
+      "password": "1234",
+      "role": "admin",
+      "id": 1
+    }
+  ]
 }
-
