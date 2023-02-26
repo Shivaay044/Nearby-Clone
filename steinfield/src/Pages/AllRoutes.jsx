@@ -6,6 +6,7 @@ import { AdminPage } from "./AdminPage";
 import Checkout from "./Checkout/Checkout";
 import { Product } from "./Product/Product";
 import SingleProduct from "./SingleProduct/SingleProduct";
+import CartItem from "../Components/CartItem";
 
 
 
@@ -15,7 +16,7 @@ function AllRoutes() {
         <Route path={"/"}  element={<HomePage/>}/ >
         <Route path={"/product"}  element={<Product/>}/ >
         <Route path={"/product/:id"}  element={<SingleProduct/>}/ >
-        {/* <Route path={"/cart"}  element={<SingleProduct/>}/ > */}
+        <Route path={"/cart"}  element={<CartItem/>}/ >
         <Route path={"/checkout"}  element={<Checkout/>}/ >
         <Route path={"/admin"}  element={<AdminPage/>}/ >
         <Route path={"/login"}  element={<Login/>}/ >
