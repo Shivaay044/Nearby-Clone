@@ -1,13 +1,12 @@
 import { Box, Image, Heading, Text } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Slider from 'react-slick';
 
 export const Slide = ({ title }) => {
-
   return (
     <Image
-      w="60%"
-      h="2%"
+      w="90%"
+      h="300px" borderRadius="15px"
       border="cyan.300"
       mx="4"
       src={title}
@@ -16,22 +15,22 @@ export const Slide = ({ title }) => {
   );
 };
 
-export default function SliderCrousel(prop) {
-  const {categoryName,img_responsivesrc1,img_responsivesrc2,img_responsivesrc3,img_responsivesrc4,img_responsivesrc5,img_responsivesrc6} = prop;
+export default function PopularCard(prop) {
+  const {img_responsivesrc1,img_responsivesrc2,img_responsivesrc3,img_responsivesrc4,img_responsivesrc5,img_responsivesrc6,categoryName} = prop;
   const [data,setData] = useState(5);
-  
   const updateDimensions = () => {
-    const width = window.innerWidth;
+     const width = window.innerWidth;
      
      if(width<=768 && width>=500){
-        setData(3);
-      }else if(500>=width && width>=320){
         setData(2);
+      }else if(500>=width && width>=320){
+        setData(1);
       }else{
         setData(5);
       }
   };
   window.addEventListener("resize", updateDimensions);
+
 
   const slickSettings = {
     dots: true,
@@ -60,10 +59,10 @@ export default function SliderCrousel(prop) {
               }
             },
             ".slick-arrow": {
-              backgroundColor: "red",
+              backgroundColor: "grey",
               color: "black",
-              w: "3%",
-              h: "50%",
+              w: "4%",
+              h: "30%",
               transition: "0.2s",
               _hover: {
                 backgroundColor: "black",
