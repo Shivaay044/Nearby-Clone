@@ -5,13 +5,16 @@
     width: 100%;
     margin: 97px auto 50px auto;
     font-size: 14px;
-    /* padding: 2%; */
+    color: white;
 }   
-#top{
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 15%;
-    padding: 12% 2% 12% 2%;
+    padding: 12% 2%;
 }
-#top:hover{
+.top:hover{
     background-color: rgb(249, 247, 247);
 }
 #images{
@@ -20,4 +23,53 @@
 }
 .crousel{
     margin-bottom: 60px;
+}
+#buffet>div{
+    display: flex;
+    margin: 50px auto 50px auto;
+}
+.buff{
+    height: 90%;
+    width: 70%;
+}
+#mind{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    #linkImage{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    #mind{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    #buffet>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    #linkImage{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    #mind{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #buffet>div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .buff{
+        height: 80%;
+        width: 50%;
+    }
 }
