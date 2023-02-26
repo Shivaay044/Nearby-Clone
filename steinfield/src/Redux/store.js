@@ -12,7 +12,8 @@ import { reducer as authReducer } from "./Authentication/reducer";
 const rootReducer = combineReducers({
    // reducers here
  appReducer,  
- authReducer
+ authReducer,
+ AdminReducer
 })
 
 export const store = legacy_createStore(rootReducer,applyMiddleware(thunk))

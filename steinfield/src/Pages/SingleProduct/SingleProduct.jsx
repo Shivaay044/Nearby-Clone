@@ -47,8 +47,8 @@ const SingleProduct = () => {
     return;
   }
   return (
-    <div >
-      <div>
+    <div id={styles.main_single} >
+      <div >
         {/* <Navbar/> */}
       </div>
       <div className={styles.outer} >
@@ -102,7 +102,7 @@ const SingleProduct = () => {
               <h3 >{data.merchantName}</h3>
               <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
               <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
-              <Link className='Link' to={`/cart`} ><button style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "150px",border:"1px solid blue" }}>view</button></Link></div>
+              <Link className='Link' to={`/checkout`} ><button  style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "150px",border:"1px solid blue" }}>Buy</button></Link></div>
           </div>
           <div style={{width:"20%",border:"1px solid gray" ,marginLeft:"30px",height:"300px",padding:"10px"}}>
             <h2>Win Rs 500 instant off code</h2>
