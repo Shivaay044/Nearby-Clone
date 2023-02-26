@@ -1,0 +1,161 @@
+
+#credential-main{
+  background-image: url(https://images.pexels.com/photos/4862892/pexels-photo-4862892.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* <------------SignUp-----------> */
+
+#credential-main{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
+.main-signup {
+  border: 1px solid #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.signup {
+  /* border: 1px solid #000; */
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&w=600);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.signup-form {
+  /* border: 1px solid #c42020; */
+  position: relative;
+  top: 30px;
+}
+
+.signup-form > input {
+  display: flex;
+  width: 80%;
+  margin: 30px;
+  padding: 8px;
+  border: 2px solid #000;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 10px;
+}
+
+.signup-form > select {
+  padding:3px;
+  margin: auto;
+  display: flex;
+  border-radius:30px;
+  justify-content: center;
+}
+
+.signup-form > button {
+  margin: 20px;
+  border-radius: 30px;
+  padding: 6px 8px 6px 8px;
+}
+
+.switch-signup{
+    border-bottom: none;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    
+}
+
+.switch-signup >button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(237, 227, 41);
+}
+
+
+
+/* <-----------Login--------------> */
+
+
+.main-login {
+    border: 1px solid #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login {
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .login-form {
+    /* border: 1px solid #c42020; */
+    position: relative;
+    top: 40px;
+  }
+  
+  .login-form > input {
+    display: flex;
+    width: 80%;
+    margin: 30px;
+    padding: 8px;
+    border: 2px solid #000;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 10px;
+  }
+  
+  .login-form > select {
+    padding: 3px;
+    margin: auto;
+    display: flex;
+    border-radius:30px;
+    justify-content: center;
+  }
+  
+  .login-form > button {
+    margin: 30px;
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .switch-login{
+    border-bottom: none;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    
+}
+
+.switch-login >button{
+    background: none;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: rgb(237, 227, 41);
+}
+

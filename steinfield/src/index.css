@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root[data-theme=dark], [data-theme][data-theme=dark]{
+  --chakra-colors-chakra-body-bg:white !important;
+}
+.chakra-heading{
+  color:black;
+}
