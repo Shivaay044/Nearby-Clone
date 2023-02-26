@@ -11,10 +11,10 @@ export const getProductErrorAction =()=>{
 }
 
 
-export const getProducts=(params)=>(dispatch)=>{
+export const getProducts= (params)=>  (dispatch)=>{
     console.log(params)
     dispatch(getProductRequestAction)
-    axios.get(`http://localhost:8080/data?Category=resturant&merchantCity=New Delhi`,params).then((res)=>{
+   return axios.get(`https://stienfildapi.onrender.com/data?Category=resturant&merchantCity=New Delhi`,params).then((res)=>{
         console.log(res.data)
   dispatch(getProductSuccessAction(res.data))
     }).catch(()=>{

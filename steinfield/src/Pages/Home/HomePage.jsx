@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { BuffetData, BuffetData2, crousel1, crousel2, linkImages, Mind, Popular, Quick, Quick2, TopBrands } from "./data";
 import Carousel from 'react-bootstrap/Carousel';
 import "./Home.css";
@@ -7,8 +7,10 @@ import { Heading } from "@chakra-ui/react";
 import PopularCard from "./PopularCard";
 import MindCard from "./MindCard";
 
+
 function HomePage(){
     const data1 = TopBrands;
+     
     
     return(
         <div id="home">
@@ -17,11 +19,11 @@ function HomePage(){
                     linkImages.length>0 && linkImages.map((ele,index)=>{
                         return (
                         <Link to='/product' key={index}>
-                         <div key={index} className="top">
-                            <img id="images" src={ele.img} alt="image" />
+                         <div key={index} className="top" >
+                            <img id="images" src={ele.img} alt="image"  />
                             <p style={{color:"black",fontWeight:"600"}}>{ele.name}</p>
                         </div>
-                        </Link>
+                         </Link>
                     )
                     })
                 }

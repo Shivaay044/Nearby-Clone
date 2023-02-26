@@ -165,7 +165,7 @@ border-radius: 5%;
 
 
 
-@media all and (min-width:771px)  and (max-width:959px){
+@media all and (min-width:771px)  and (max-width:960px){
     /*small  */
 
     .productPage{
@@ -195,8 +195,11 @@ border-radius: 5%;
 }
         
 .sorting-div{
-    width: 35%;
+    width: 38%;
 
+}
+.sort-btn{
+    padding: 5px 10px;
 }
    
 .nav-heading{
@@ -213,14 +216,14 @@ border-radius: 5%;
     .productPage{
 
         width: 95%;
-        grid-template-columns: 50%;
+        grid-template-columns: 70%;
         
     
     }
 
     .product-container{
         display: grid;
-        grid-template-columns: 190%;
+        grid-template-columns: 100%;
         height: 50%;
      
 
@@ -235,7 +238,7 @@ border-radius: 5%;
 }
 
 .sorting-div{
-    width: 38%;
+    width: 40%;
 
 }
 
