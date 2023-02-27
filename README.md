@@ -57,4 +57,6 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 ![homePage] (https://i.postimg.cc/dVjZZ64c/Screenshot-3.png)
 
 [![Screenshot-3.png](https://i.postimg.cc/dVjZZ64c/Screenshot-3.png)](https://postimg.cc/rDzwvSBf)
-[Screenshot-3.png](https://postimg.cc/rDzwvSBf)
+[![Screenshot-5.png](https://i.postimg.cc/J7HqHwJw/Screenshot-5.png)](https://postimg.cc/MXxRgFdt) [![Screenshot-8.png](https://i.postimg.cc/j5HSBdm0/Screenshot-8.png)](https://postimg.cc/mzr4HRT8)
+[![Screenshot-9.png](https://i.postimg.cc/85S1dg5y/Screenshot-9.png)](https://postimg.cc/FfT5mq0c)
+[![Screenshot-10.png](https://i.postimg.cc/6QdKpb0C/Screenshot-10.png)](https://postimg.cc/Z9K2fcXq)
