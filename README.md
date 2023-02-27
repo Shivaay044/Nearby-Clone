@@ -53,6 +53,5 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 
 
 ## Website link :- https://stellular-cocada-270b8a.netlify.app/
-https://i.postimg.cc/dVjZZ64c/Screenshot-3.png
-[url=https://postimg.cc/rDzwvSBf][img]https://i.postimg.cc/rDzwvSBf/Screenshot-3.png[/img][/url]
-[Screenshot-3.png](https://postimg.cc/rDzwvSBf)
+## About SteinField : -
+[homePage] (https://i.postimg.cc/dVjZZ64c/Screenshot-3.png)
