@@ -47,9 +47,9 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 * [@Shivendra Singh](https://github.com/Shivendra-Singh044)
 
 
-## API Root Endpoint
-
-`https://63984905fe03352a94cb30eb.mockapi.io/:endpoint`
+##  API
+`https://stienfildapi.onrender.com`
+## Used Json-server
 
 
 ## Website link :-  https://dapper-cheesecake-326981.netlify.app/home.html
