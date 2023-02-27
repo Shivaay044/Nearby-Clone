@@ -72,7 +72,6 @@ console.log(data)
     if (
       fname == "" ||
       lname == "" ||
-      company == "" ||
       address == "" ||
       city == "" ||
       pinCode == "" ||
@@ -89,7 +88,7 @@ console.log(data)
       const billingData = {
         fname: fname,
         lname: lname,
-        company: company,
+       
         address: address,
         city: city,
         pinCode: pinCode,
@@ -97,7 +96,7 @@ console.log(data)
         email: email,
         textArea: textArea,
         country: "India",
-        state: "Maharashtra",
+        
       };
       
       setFormData(billingData);

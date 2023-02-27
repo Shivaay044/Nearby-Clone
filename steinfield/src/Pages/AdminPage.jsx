@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { useEffect } from "react";
 import styles from "./AdminPage.module.css";
-import { Button, FormControl, FormLabel, Input } from '@chakra-ui/react'
+import { Button, FormControl, FormLabel, Input, Heading, Text, Box } from '@chakra-ui/react'
 import styled from 'styled-components'
 import { useDispatch, useSelector} from "react-redux";
 import {getAdminData, addAdminData, deleteAdminData, updateAdminData} from "../Redux/Admin/action"
@@ -77,10 +77,14 @@ export const AdminPage = () => {
          
 
   return (
-    <div >
+    <div > 
    <div style={{background: "-webkit-linear-gradient(60deg, #ee7752,#ffff, #23a6d5 80%)"}}>
+
+   
     <Wrapper>
+   <Heading size='md'as='h4' mb={"25px"} >Add Merchant</Heading>
  <form onSubmit={(e)=>{handleAddData(e)}} >
+
   <FormControl>
   <FormLabel>Merchant Name</FormLabel>
   <Input placeholder='Merchant Name'  type="text" name="merchantName" value={merchant.merchantName}  onChange={(e)=>handleChange(e)} />
@@ -163,7 +167,7 @@ const Wrapper=styled.div`
     padding: 60px;
     width: 50%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     background: -webkit-linear-gradient(65deg, #ee7752,#ffff, #23a6d5 80%);
    border-radius: 5%;
 `;
