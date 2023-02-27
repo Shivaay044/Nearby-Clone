@@ -52,6 +52,5 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 ## Used Json-server
 
 
-## Website link :-  https://dapper-cheesecake-326981.netlify.app/home.html
-
+## Website link :- https://strong-dolphin-412986.netlify.app/
 
