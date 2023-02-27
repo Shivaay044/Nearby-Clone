@@ -53,7 +53,4 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 
 
 ## Website link :- https://stellular-cocada-270b8a.netlify.app/
-
-
-
-"C:\Users\91874\Pictures\Screenshots\Screenshot (3).png"
+https://i.postimg.cc/dVjZZ64c/Screenshot-3.png
