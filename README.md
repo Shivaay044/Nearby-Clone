@@ -52,5 +52,7 @@ nearbuy.com also offers its merchants a strong branding and visibility-led platf
 ## Used Json-server
 
 
-## Website link :- https://strong-dolphin-412986.netlify.app/
+## Website link :- https://stellular-cocada-270b8a.netlify.app/
+
+
 
