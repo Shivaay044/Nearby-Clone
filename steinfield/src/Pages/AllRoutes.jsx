@@ -10,7 +10,7 @@ import CartItem from "../Components/CartItem";
 import { Heading } from "@chakra-ui/react";
 
 
-
+// all "ROUTES" is here
 function AllRoutes() {
   return (
     <Routes>

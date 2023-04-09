@@ -2,6 +2,7 @@ import { Box, Image, Heading, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Slider from 'react-slick';
 
+// slider by "REACT-SLICK"
 export const Slide = ({ title }) => {
 
   return (
@@ -20,6 +21,7 @@ export default function SliderCrousel(prop) {
   const {categoryName,img_responsivesrc1,img_responsivesrc2,img_responsivesrc3,img_responsivesrc4,img_responsivesrc5,img_responsivesrc6} = prop;
   const [data,setData] = useState(5);
   
+  // dimensions for making page responsive
   const updateDimensions = () => {
     const width = window.innerWidth;
      

@@ -23,10 +23,7 @@ import {
 } from "@chakra-ui/react";
 import styles from "./Checkout.module.css";
 import { useParams } from "react-router-dom";
-
 import { useDispatch, useSelector } from "react-redux";
-// import Navbar from "../Navbar";
-// import Footer from "../Footer";
 import { Navigate, useNavigate } from "react-router-dom";
 
 const Checkout = () => {
@@ -36,24 +33,21 @@ const Checkout = () => {
 
 
   const [data, setData] = useState({});
-  //  console.log(id)
+
+  // getting the product which user wants to buy by its ID
   const getProduct = (dispatch) => {
     console.log("ac", `https://stienfildapi.onrender.com/data/${params.id}`)
     return axios
       .get(`https://stienfildapi.onrender.com/data/${params.id}`)
       .then((r) => setData(r.data))
-
       .catch((e) => console.log(e));
   };
+
   useEffect(() => {
     getProduct();
   }, []);
-console.log(data)
+
   const [value, setValue] = React.useState("Cash on delivery");
-  // const {cart, isLoading} = useSelector((store)=>{return {
-  //   cart: store.CartReducer.cart,   
-  //   isLoading :  store.CartReducer.isLoading
-  //   }})
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
   const [company, setCompany] = useState("");
@@ -68,6 +62,7 @@ console.log(data)
   const toast = useToast();
     const navigate= useNavigate()
 
+    // function for handling the data from the user & conditions 
   const handleSubmit = () => {
     if (
       fname == "" ||
@@ -115,7 +110,6 @@ console.log(data)
 
   return (
     <Box className={styles.body}>
-      {/* <Navbar/> */}
       <Box p={"3rem"}>
         <Text textAlign={"start"}>Home » Checkout</Text>
       </Box>

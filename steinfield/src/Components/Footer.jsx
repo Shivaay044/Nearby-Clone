@@ -101,7 +101,7 @@ export default function Footer() {
           <Stack align={'flex-start'}>
             <ListHeader>Install App</ListHeader>
             <Link href='https://play.google.com/store/apps/details?id=com.nearbuy.nearbuymobile&hl=en&pid=Web%20App%20Download&c=Home%20Page%20Footer'>
-                <Image src='https://www.nicepng.com/png/detail/37-374927_apple-app-store-and-google-play-logos-app.png'/>
+                <Image src='https://static.vecteezy.com/system/resources/previews/002/520/836/original/download-apps-button-google-play-and-app-store-vector.jpg'/>
             </Link>
           </Stack>
         </SimpleGrid>

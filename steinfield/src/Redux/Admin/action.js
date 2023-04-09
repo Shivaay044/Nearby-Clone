@@ -15,6 +15,7 @@ import {
     UPDATE_ADMIN_DATA_SUCCESS,
 } from "./actionType"
 
+// for adding the admin data
 export const addAdminDataRequest = () => {
     return { type: ADD_ADMIN_DATA_REQUEST };
   };
@@ -28,7 +29,7 @@ export const addAdminDataRequest = () => {
   };
 
 
-  //getadmin
+  // for getting the admin data
   export const getAdminDataRequest = () => {
     return { type: GET_ADMIN_DATA_REQUEST };
   };
@@ -41,6 +42,7 @@ export const addAdminDataRequest = () => {
     return { type: GET_ADMIN_DATA_FAILURE };
   };
 
+  // for deleting the admin data
   export const deleteAdminDataRequest = () => {
     return { type: DELETE_ADMIN_DATA_REQUEST };
   };
@@ -53,6 +55,7 @@ export const addAdminDataRequest = () => {
     return { type: DELETE_ADMIN_DATA_FAILURE };
   };
   
+  // for updating the admin data
   export const updateAdminDataRequest = () => {
     return { type: UPDATE_ADMIN_DATA_REQUEST };
   };
@@ -66,17 +69,18 @@ export const addAdminDataRequest = () => {
   };
   
 
+  // fetching API by axios for get the data
   export const getAdminData = (dispatch) => {
     dispatch(getAdminDataRequest());
     axios
       .get(` https://stienfildapi.onrender.com/data`)
       .then((res) => {
         dispatch(getAdminDataSuccess(res.data));
-       // console.log(res.data)
       })
       .catch((err) => dispatch(getAdminDataFailure()));
   };
 
+//  for add the data
   export const addAdminData = (newData) => (dispatch) => {
     dispatch(addAdminDataRequest());
     return axios
@@ -89,6 +93,7 @@ export const addAdminDataRequest = () => {
       });
   };
 
+  //  for delete the data
   export const deleteAdminData = (id) => (dispatch) => {
     dispatch(deleteAdminDataRequest());
     return axios
@@ -100,7 +105,7 @@ export const addAdminDataRequest = () => {
         dispatch(deleteAdminDataFailure());
       });
   };
-  //for update
+  //for update the data
   export const updateAdminData = (id,newEditData) => (dispatch) => {
     dispatch(updateAdminDataRequest());
     return axios

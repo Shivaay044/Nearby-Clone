@@ -3,30 +3,29 @@ import axios from "axios"
 import { Link } from 'react-router-dom'
 import SimpleImageSlider from "react-simple-image-slider";
 import styles from './SingleProduct.module.css'
-
-// import  Navbar  from "../Components/Navbar"
 import { useParams } from "react-router-dom";
 import {Button,Text} from '@chakra-ui/react'
 
+// SINGLE PRODUCT PAGE
 const SingleProduct = () => {
   const params = useParams();
   console.log("uu", params)
 
   const [data, setData] = useState({});
-  //  console.log(id)
+
+  // getting data of single product by ID
   const getProduct = (dispatch) => {
     console.log("ac", `https://stienfildapi.onrender.com/data/${params.id}`)
     return axios
       .get(`https://stienfildapi.onrender.com/data/${params.id}`)
       .then((r) => setData(r.data))
-
       .catch((e) => console.log(e));
   };
+  
   useEffect(() => {
     getProduct();
   }, []);
-  // console.log (data.images)
-  // const [e,r,t]=[...data.images]
+
   console.log(data)
   const img = data && data.images && data.images.length > 0 ? data.images[0] : ""
   const img1 = data && data.images && data.images.length > 0 ? data.images[1] : ""
@@ -50,7 +49,6 @@ const SingleProduct = () => {
   return (
     <div id={styles.main_single} >
       <div >
-        {/* <Navbar/> */}
       </div>
       <div className={styles.outer} >
         <div className={styles.div1} >
@@ -59,15 +57,12 @@ const SingleProduct = () => {
           <h3 >{data.merchantName}</h3>
           <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
           <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
-          <Link className='Link' to={`/cart`} ><Button style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "70px" }}>view</Button></Link>
+          <Link className='Link'><Button style={{ margin: "10px", backgroundColor: "lightBlue", borderRadius: "1em", width: "70px" }}>view</Button></Link>
         </div>
         <div className={styles.div2} style={{}}>
           <div style={{ margin: "10px", border: "none", width: "40%" }}>
             {data && <img src={img} />}
           </div>
-          {/* <div style={{margin :"10px",border:"none"}}>
-               {data && <img src={img}/>}
-            </div> */}
           <div style={{ margin: "10px" }}>
             <SimpleImageSlider
               margin={10}
@@ -91,7 +86,7 @@ const SingleProduct = () => {
               <h3 >{data.merchantName}</h3>
               <h5 style={{ margin: "1px", color: "gray", }}>{data.merchantLocation}</h5>
               <h3>{data.distanceFromUser} <span><a>Get Directions</a></span> </h3>
-              <Link className='Link' to={`/cart`} ><button style={{ margin: "10px", backgroundColor: "pink", borderRadius: "1em", width: "150px",border:"1px solid red" }}>view</button></Link>
+              <Link className='Link'><button style={{ margin: "10px", backgroundColor: "pink", borderRadius: "1em", width: "150px",border:"1px solid red" }}>view</button></Link>
             </div>
             <div style={{ padding:'10px', width: "100%", backgroundColor: "lightblue" ,borderRadius:"2em",marginBottom:"20px"}}>
               {/* <p style={{ margin: "1px", color: "gray", }}> {data.Category}</p> */}

@@ -9,9 +9,10 @@ import { getProducts } from '../../Redux/appReducer/action';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { Heading, Input, Text } from '@chakra-ui/react';
 
+// PRODUCTS PAGE
 export const Product = () => {
 
-
+  // hooks to set the location & params of the URL
   const [SearchParams, setSearchParams] = useSearchParams()
   const initialmerchantLocation = SearchParams.getAll("merchantLocation")
   const [merchantLocation, setmerchantLocation] = useState(initialmerchantLocation)
@@ -20,15 +21,14 @@ export const Product = () => {
   const [order, setOrder] = useState(initialOrder)
   const [btnColor, setBtnColor] = useState('#686654')
 
-
-
+// logic to "SORT" the product data  
   const handleSorting = (e) => {
     console.log(e.target)
     setOrder(e.target.value)
     setBtnColor('red')
-
   }
 
+  // logic to "FILTER" the product data
   const handleFiltering = (e) => {
     console.log(e.target.value)
     let newmerchantLocation = [...merchantLocation]
@@ -51,28 +51,26 @@ export const Product = () => {
     }
     order && (params.order = order)
     setSearchParams(params)
+
   }, [order, merchantLocation])
 
-
-  // const products =[1,2,3,4,5,6]
   const products = useSelector((store) => store.appReducer.products)
 
   const dispatch = useDispatch()
   const inputChecbox = [1, 2, 3, 4, 5]
   const location = useLocation()
-  useEffect(() => {
 
+  useEffect(() => {
     let paramObj = {
       params: {
-
         merchantLocation: SearchParams.getAll('merchantLocation'),
         _sort: order && 'price',
         _order: order && SearchParams.get('order')
-
-
       }
     }
+
     dispatch(getProducts(paramObj))
+
   }, [location.search])
 
   const settings = {
@@ -86,6 +84,7 @@ export const Product = () => {
   const styles = {
     backgroungColor: 'red'
   }
+
   return (
     <div className='body'>
       <div className='subNav'>

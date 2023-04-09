@@ -13,13 +13,14 @@ import {
     UPDATE_ADMIN_DATA_SUCCESS,
 } from "./actionType"
 
+// initial state for admin
 const initialState = {
     adminData: [],
     isError: false,
     isLoading: false,
   };
 
-
+// reducer function for the admin page
   export const reducer = (state = initialState, { type, payload }) => {
     switch (type) {
       case GET_ADMIN_DATA_REQUEST:

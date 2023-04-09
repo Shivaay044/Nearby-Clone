@@ -10,7 +10,7 @@ import { store } from "../Redux/store";
 import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate } from "react-router-dom";
 
-
+// signup state
 const signupInitialState = {
   name:"",
   email:"",
@@ -18,15 +18,15 @@ const signupInitialState = {
   role:null
 }
 
+// login state
 const loginInitialState ={
   email:"",
   password:"",
   role:null
 }
 
+// LOGIN Function
 function Login() {
-
- 
    const [signup,setSignup] = useState(true)
    const [login,setLogin] = useState(false)
    const [SignupData , setSignupData] = useState(signupInitialState)
@@ -40,6 +40,7 @@ function Login() {
 
    const dispatch = useDispatch()
 
+  //  taking Auth data from Redux Store
    const isAuth = useSelector((store) =>store.authReducer.isAuth)
 
    const navigate = useNavigate()
@@ -55,6 +56,7 @@ function Login() {
    }
 
 
+  //  posting user validation data to the server by Axios
    const handleSignup = (e) =>{
         e.preventDefault()
         SignupData.role && axios.post(`https://stienfildapi.onrender.com/${SignupData.role}`,SignupData)
@@ -62,13 +64,13 @@ function Login() {
        .catch((err) =>{toast.error("Failed, try again")})
    }
 
-
+  //  for SIGNUP
    const hanldeChangeSignup = (e) =>{
      const {value,name} = e.target
       setSignupData({...SignupData,[name]:value})
    }
 
-
+  //  for LOGIN
    const handleChangeLogin = (e) =>{
     const {value,name} = e.target
     setLoginData({...LoginData,[name]:value})
@@ -77,7 +79,7 @@ function Login() {
 
    const handleLogin = async(e) =>{
     e.preventDefault()
-
+    
     let arr = crud.filter((el) =>{
       if(el.email==LoginData.email && el.password==LoginData.password){
         dispatch(loginSuccess())
@@ -95,8 +97,6 @@ function Login() {
 
    }
   
- 
-
   return (
     
     <div id="credential-main">

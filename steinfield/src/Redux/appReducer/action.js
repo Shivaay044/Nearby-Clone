@@ -1,5 +1,6 @@
 import { GET_PRODUCT_ERROR, GET_PRODUCT_REQUEST, GET_PRODUCT_SUCCESS } from "./actionTypes"
 import axios from 'axios'
+
 export const getProductRequestAction =()=>{
     return {type:GET_PRODUCT_REQUEST}
 }
@@ -10,7 +11,7 @@ export const getProductErrorAction =()=>{
     return {type:GET_PRODUCT_ERROR}
 }
 
-
+// get products by fetching the api by AXIOS
 export const getProducts= (params)=>  (dispatch)=>{
     console.log(params)
     dispatch(getProductRequestAction)

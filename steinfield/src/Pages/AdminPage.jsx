@@ -22,7 +22,7 @@ let initialState={
   merchantCity:"",
   price:"",
 }
-
+// ADMIN PAGE
 export const AdminPage = () => {
     const adminData = useSelector((store) => store.AdminReducer.adminData);
     const dispatch = useDispatch();
@@ -34,25 +34,20 @@ export const AdminPage = () => {
 
     const handleChange=(e)=>{
       const{name,value}=e.target
-   
-    //console.log(e.target.name)
-    setMerchant(prev=>{
+      setMerchant(prev=>{
       return{...prev,[name]: name=== "price"? +value : value}
-    })
-   // console.log(e)
+      })
     }
  
    
+    // function to add the data
       const handleAddData = (e) => {
-
         e.preventDefault();
         dispatch(addAdminData(merchant));
       
         setMerchant(initialState)
 
         let newData=merchant
-      
-      
         dispatch(addAdminData(newData)).then((res) => {
             dispatch(getAdminData);
             console.log(newData);
@@ -60,16 +55,16 @@ export const AdminPage = () => {
         
         };
 
-
+        // function to delete the data
         const handleDelete = (id) => {
           dispatch(deleteAdminData(id)).then(() => {
             dispatch(getAdminData);
           });
         };
 
+        // fucntion to edit the data
         const handleEdit = (id)=>{
-          let newEditData = merchant
-           
+          let newEditData = merchant          
           dispatch(updateAdminData(newEditData)).then(() => {
             dispatch(getAdminData);
           });
@@ -77,7 +72,7 @@ export const AdminPage = () => {
          
 
   return (
-    <div > 
+  <div> 
    <div style={{background: "-webkit-linear-gradient(60deg, #ee7752,#ffff, #23a6d5 80%)"}}>
 
    
@@ -162,7 +157,7 @@ export const AdminPage = () => {
   );
 }
 
-
+// adding style by the STYLED components
 const Wrapper=styled.div`
     padding: 60px;
     width: 50%;

@@ -7,11 +7,10 @@ import { Heading } from "@chakra-ui/react";
 import PopularCard from "./PopularCard";
 import MindCard from "./MindCard";
 
-
+// HOME PAGE
 function HomePage(){
     const data1 = TopBrands;
      
-    
     return(
         <div id="home">
             <div id="linkImage">
